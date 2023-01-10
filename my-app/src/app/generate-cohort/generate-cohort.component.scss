@@ -1,0 +1,59 @@
+
+.preview-box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1001;
+    padding: 10px 0px;
+    width: 1362px;
+height: 561px;
+
+background: #F2F7F8;
+  }
+.preview-box-content {
+    background-color: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 75px;
+    min-height: 1000px;
+}
+.y-scroll {
+    overflow-y: auto;
+  }
+.preview-label-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 30px 20px 50px;
+    gap: 1072px;
+    
+    position: absolute;
+    width: 1360px;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    
+    background: #FFFFFF;
+}
+.preview-label{
+    width: 184px;
+height: 30px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+  
+  

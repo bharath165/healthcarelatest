@@ -1,0 +1,31 @@
+@import '../../sass/variables';
+@import '../../sass/mixins';
+footer {
+    position: relative;
+    z-index: 999;
+    .footer-logo-sec {
+        height: 216px;
+        background-color:#E7E6E0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 140px;
+    }
+    .footer-copyright-sec {
+        height: 94px;
+        background-color: #1C252C;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 140px;
+        .footer-copyright-text {
+            @include primary-fs(16);
+            letter-spacing: 0.07em;
+            color: #fff;
+            .special {
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

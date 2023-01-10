@@ -1,0 +1,96 @@
+<header>
+  <div class="backdropHeader" (click)="closeAlert()" *ngIf="isProblemBtnClick || isIdeathonBtnClick || isExperimentBtnClick || isInnovationBtnClick || isMyInitiativeBtnClick"></div>
+  <div class="header-logo" >
+    <img src="assets/images/ust-logo.png" alt="Waggle" />
+  </div>
+  <div class="header-nav">
+    <span class="header-item">
+      <button class="effect"  [ngClass]="isProblemBtnClick ? 'btn-change' : ''" (click)="problemMappingClick()">
+        Clinical Ops & Research 
+        <img class="problem-mapping-img" [ngClass]="isProblemBtnClick ? 'img-change' : ''" [src]="isProblemBtnClick ? 'assets/images/up-arrow-icon.svg' : 'assets/images/down-arrow-icon.png'" alt=">" />
+      </button>
+      <div class="header-sub-nav" [ngClass]="isProblemBtnClick ? 'tab-change' : ''">
+          <div class="header-sub-nav-item" (click)="goToProblemArea()">Map a Problem Area</div>
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Active Problems</div> -->
+          <div class="header-sub-nav-item" (click)="goToActiveProblems()">List of Problems</div>
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Engage in a Problem</div> -->
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Manage Business Case</div> -->
+      </div>
+    </span>
+    <span class="header-item">
+      <button class="effect"  [ngClass]="isIdeathonBtnClick ? 'btn-change' : ''" (click)="ideathonClick()">
+        Patient Health
+        <img class="problem-mapping-img" [ngClass]="isIdeathonBtnClick ? 'img-change' : ''" [src]="isIdeathonBtnClick ? 'assets/images/up-arrow-icon.svg' : 'assets/images/down-arrow-icon.png'" alt=">" />
+      </button>
+      <div class="header-sub-nav" [ngClass]="isIdeathonBtnClick ? 'tab-change-ideathons' : ''">
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Setup Idea Drive</div> -->
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Run Ideation Drive</div> -->
+          <div class="header-sub-nav-item" (click)="goToIdeathons()">List of Idea Drives</div>
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Participate in an Idea Drive</div> -->
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Minimum Viable Concept</div> -->
+      </div>
+    </span>
+    <span class="header-item">
+      <button class="effect" [ngClass]="isExperimentBtnClick ? 'btn-change' : ''" (click)="experimentClick()">
+        Data Sources
+        <img class="problem-mapping-img" [ngClass]="isExperimentBtnClick ? 'img-change' : ''" [src]="isExperimentBtnClick ? 'assets/images/up-arrow-icon.svg' : 'assets/images/down-arrow-icon.png'" alt=">" />
+      </button>
+      <div class="header-sub-nav" [ngClass]="isExperimentBtnClick ? 'tab-change-experiments' : ''">
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Setup Experimentation</div> -->
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Manage Experiment</div> -->
+          <div class="header-sub-nav-item" (click)="goToExperiments()">Our data-methodology</div>
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Join an Experiment</div> -->
+          <!-- <div class="header-sub-nav-item" (click)="comingSoon()">Minimum Viable Product</div> -->
+      </div>
+    </span>
+    <span class="header-item">
+      <button class="effect"  [ngClass]="isInnovationBtnClick ? 'btn-change' : ''" (click)="goToInnovationAssurance()">
+        Payor & Claims
+        <!-- <img class="problem-mapping-img" [ngClass]="isInnovationBtnClick ? 'img-change' : ''" [src]="isInnovationBtnClick ? 'assets/images/up-arrow-icon.svg' : 'assets/images/down-arrow-icon.png'" alt=">" /> -->
+      </button>
+      <!-- <div class="header-sub-nav" [ngClass]="isInnovationBtnClick ? 'tab-change-innovation' : ''">
+          <div class="header-sub-nav-item" (click)="comingSoon()">UST Innovation PodTM</div>
+          <div class="header-sub-nav-item" (click)="comingSoon()">Exemplars</div>
+          <div class="header-sub-nav-item" (click)="comingSoon()">Outcomes</div>
+          <div class="header-sub-nav-item" (click)="comingSoon()">Available Services</div>
+      </div> -->
+    </span>
+    <span class="header-item">
+      <button class="effect" [ngClass]="isMyInitiativeBtnClick ? 'btn-change' : ''" (click)="myInitiativeClick()">
+        AI Model Marketplace
+        <img class="problem-mapping-img" [ngClass]="isMyInitiativeBtnClick ? 'img-change' : ''" [src]="isMyInitiativeBtnClick ? 'assets/images/up-arrow-icon.svg' : 'assets/images/down-arrow-icon.png'" alt=">" />
+      </button>
+      <div class="header-sub-nav" [ngClass]="isMyInitiativeBtnClick ? 'tab-change-myinitiatives' : ''">
+        <div class="header-sub-nav-item" (click)="goToMyinitiatives('ideathons')">My Problems</div>
+        <div class="header-sub-nav-item" (click)="goToMyinitiatives('ideas')">My Ideas</div>
+        <div class="header-sub-nav-item" (click)="goToMyinitiatives('experiments')">My Experiments</div>
+        <div class="header-sub-nav-item" (click)="goToMyinitiatives('actions')">My Actions</div>
+      </div>
+    </span>
+    <div class="waggle-logo-link" >
+        <img class="header-item waggle-logo" src="assets/images/UST-Health.png" alt="Waggle" />
+      </div>
+    <span class="header-item logout" (click)="logout()" *ngIf="!isAdmin">
+      <img src="assets/images/logout.png" title="Logout" alt="Logout">
+      <!-- Logout -->
+    </span>
+    <!-- <div class="waggle-logo-link" >
+      <img class="header-item waggle-logo" src="assets/images/logo.png" alt="Waggle" />
+    </div>     -->
+    <span class="header-item admin-nav" *ngIf="isAdmin">
+      <div class="btn-wrapper">
+        <img src="assets/images/down-arrow.png" alt="">
+      </div>
+      <div class="header-sub-nav header-sub-nav-logout">
+        <div class="header-sub-nav-item" (click)="goToAdmin()">
+            <img src="assets/images/admin.png" alt="">
+            Admin
+        </div>
+        <div class="header-sub-nav-item no-border" (click)="logout()">
+            <img src="assets/images/logout.png" alt="">
+            Logout
+        </div>
+      </div>
+    </span>
+  </div>
+</header>

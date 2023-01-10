@@ -1,0 +1,272 @@
+﻿[
+    {
+        "Rx_Unique_ID": "C0245514",
+        "Rx_Code": "C1522",
+        "Drugname": "Troglitazone"
+    },
+    {
+        "Rx_Unique_ID": "C0537551",
+        "Rx_Code": "C61901",
+        "Drugname": "Triproamylin"
+    },
+    {
+        "Rx_Unique_ID": "C0724709",
+        "Rx_Code": "C78130",
+        "Drugname": "Tolbutamide Sodium"
+    },
+    {
+        "Rx_Unique_ID": "C0040374",
+        "Rx_Code": "C66610",
+        "Drugname": "Tolbutamide"
+    },
+    {
+        "Rx_Unique_ID": "C0040372",
+        "Rx_Code": "C29502",
+        "Drugname": "Tolazamide"
+    },
+    {
+        "Rx_Unique_ID": "C1667080",
+        "Rx_Code": "C73811",
+        "Drugname": "Sitagliptin Phosphate"
+    },
+    {
+        "Rx_Unique_ID": "C1565750",
+        "Rx_Code": "C73838",
+        "Drugname": "Sitagliptin"
+    },
+    {
+        "Rx_Unique_ID": "C2719771",
+        "Rx_Code": "C81702",
+        "Drugname": "Saxagliptin Hydrochloride"
+    },
+    {
+        "Rx_Unique_ID": "C2699273",
+        "Rx_Code": "C75984",
+        "Drugname": "Saxagliptin Anhydrous"
+    },
+    {
+        "Rx_Unique_ID": "C1611934",
+        "Rx_Code": "C75983",
+        "Drugname": "Saxagliptin"
+    },
+    {
+        "Rx_Unique_ID": "C0795660",
+        "Rx_Code": "C2583",
+        "Drugname": "Rosiglitazone Maleate"
+    },
+    {
+        "Rx_Unique_ID": "C0289313",
+        "Rx_Code": "C62076",
+        "Drugname": "Rosiglitazone"
+    },
+    {
+        "Rx_Unique_ID": "C0246689",
+        "Rx_Code": "C47703",
+        "Drugname": "Repaglinide"
+    },
+    {
+        "Rx_Unique_ID": "C1174779",
+        "Rx_Code": "C61902",
+        "Drugname": "Pramlintide Acetate"
+    },
+    {
+        "Rx_Unique_ID": "C0537551",
+        "Rx_Code": "C61901",
+        "Drugname": "Pramlintide"
+    },
+    {
+        "Rx_Unique_ID": "C0872972",
+        "Rx_Code": "C29367",
+        "Drugname": "Pioglitazone Hydrochloride"
+    },
+    {
+        "Rx_Unique_ID": "C0071097",
+        "Rx_Code": "C71633",
+        "Drugname": "Pioglitazone"
+    },
+    {
+        "Rx_Unique_ID": "C0903898",
+        "Rx_Code": "C61858",
+        "Drugname": "Nateglinide"
+    },
+    {
+        "Rx_Unique_ID": "C0025598",
+        "Rx_Code": "C61612",
+        "Drugname": "N,N-dimethylbiguanide"
+    },
+    {
+        "Rx_Unique_ID": "C0066535",
+        "Rx_Code": "C61847",
+        "Drugname": "Miglitol"
+    },
+    {
+        "Rx_Unique_ID": "C0770893",
+        "Rx_Code": "C29251",
+        "Drugname": "Metformin Hydrochloride"
+    },
+    {
+        "Rx_Unique_ID": "C0770893",
+        "Rx_Code": "C29251",
+        "Drugname": "Metformin HCl"
+    },
+    {
+        "Rx_Unique_ID": "C0025598",
+        "Rx_Code": "C61612",
+        "Drugname": "Metformin"
+    },
+    {
+        "Rx_Unique_ID": "C2973895",
+        "Rx_Code": "C166988",
+        "Drugname": "Lixisenatide"
+    },
+    {
+        "Rx_Unique_ID": "C2746078",
+        "Rx_Code": "C83887",
+        "Drugname": "Linagliptin"
+    },
+    {
+        "Rx_Unique_ID": "C0795635",
+        "Rx_Code": "C29125",
+        "Drugname": "Insulin, Regular"
+    },
+    {
+        "Rx_Unique_ID": "C0293359",
+        "Rx_Code": "C29123",
+        "Drugname": "Insulin Lispro"
+    },
+    {
+        "Rx_Unique_ID": "C1313386",
+        "Rx_Code": "C65921",
+        "Drugname": "Insulin Glulisine"
+    },
+    {
+        "Rx_Unique_ID": "C0907402",
+        "Rx_Code": "C47564",
+        "Drugname": "Insulin Glargine Recombinant"
+    },
+    {
+        "Rx_Unique_ID": "C0907402",
+        "Rx_Code": "C47564",
+        "Drugname": "Insulin Glargine"
+    },
+    {
+        "Rx_Unique_ID": "C3491971",
+        "Rx_Code": "C142979",
+        "Drugname": "Insulin Degludec"
+    },
+    {
+        "Rx_Unique_ID": "C0123677",
+        "Rx_Code": "C47563",
+        "Drugname": "Insulin Aspart Recombinant"
+    },
+    {
+        "Rx_Unique_ID": "C0123677",
+        "Rx_Code": "C47563",
+        "Drugname": "Insulin Aspart"
+    },
+    {
+        "Rx_Unique_ID": "C0017628",
+        "Rx_Code": "C29076",
+        "Drugname": "Glyburide"
+    },
+    {
+        "Rx_Unique_ID": "C0017642",
+        "Rx_Code": "C29074",
+        "Drugname": "Glipizide"
+    },
+    {
+        "Rx_Unique_ID": "C0061323",
+        "Rx_Code": "C29073",
+        "Drugname": "Glimepiride"
+    },
+    {
+        "Rx_Unique_ID": "C0017628",
+        "Rx_Code": "C29076",
+        "Drugname": "Glibenclamide"
+    },
+    {
+        "Rx_Unique_ID": "C0167117",
+        "Rx_Code": "C65611",
+        "Drugname": "Exenatide"
+    },
+    {
+        "Rx_Unique_ID": "C3490348",
+        "Rx_Code": "C158136",
+        "Drugname": "Empagliflozin"
+    },
+    {
+        "Rx_Unique_ID": "C3179549",
+        "Rx_Code": "C169923",
+        "Drugname": "Dulaglutide"
+    },
+    {
+        "Rx_Unique_ID": "C3555622",
+        "Rx_Code": "C154296",
+        "Drugname": "Dapagliflozin S-propylene Glycol Monohydrate"
+    },
+    {
+        "Rx_Unique_ID": "C3555622",
+        "Rx_Code": "C154296",
+        "Drugname": "Dapagliflozin Propylene Glycol Hydrate"
+    },
+    {
+        "Rx_Unique_ID": "C3555622",
+        "Rx_Code": "C154296",
+        "Drugname": "Dapagliflozin Propanediol"
+    },
+    {
+        "Rx_Unique_ID": "C2353951",
+        "Rx_Code": "C78126",
+        "Drugname": "Dapagliflozin"
+    },
+    {
+        "Rx_Unique_ID": "C0541154",
+        "Rx_Code": "C28937",
+        "Drugname": "Colesevelam Hydrochloride"
+    },
+    {
+        "Rx_Unique_ID": "C0541155",
+        "Rx_Code": "C78056",
+        "Drugname": "Colesevelam"
+    },
+    {
+        "Rx_Unique_ID": "C0008287",
+        "Rx_Code": "C47447",
+        "Drugname": "Chlorpropamide"
+    },
+    {
+        "Rx_Unique_ID": "C2983989",
+        "Rx_Code": "C91019",
+        "Drugname": "Canagliflozin Anhydrous"
+    },
+    {
+        "Rx_Unique_ID": "C2974540",
+        "Rx_Code": "C91018",
+        "Drugname": "Canagliflozin"
+    },
+    {
+        "Rx_Unique_ID": "C2698057",
+        "Rx_Code": "C75186",
+        "Drugname": "Alogliptin Benzoate"
+    },
+    {
+        "Rx_Unique_ID": "C1958126",
+        "Rx_Code": "C76906",
+        "Drugname": "Alogliptin"
+    },
+    {
+        "Rx_Unique_ID": "C2607479",
+        "Rx_Code": "C78128",
+        "Drugname": "Albiglutide"
+    },
+    {
+        "Rx_Unique_ID": "C0000992",
+        "Rx_Code": "C47380",
+        "Drugname": "Acetohexamide"
+    },
+    {
+        "Rx_Unique_ID": "C0050393",
+        "Rx_Code": "C983",
+        "Drugname": "Acarbose"
+    }
+]

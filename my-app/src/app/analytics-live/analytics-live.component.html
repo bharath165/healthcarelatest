@@ -1,0 +1,125 @@
+
+  <div class="ideathon-banner-wrapper">
+    <div class="ideathon-banner clearfix">
+      <div class="ideathon-banner-image">
+        <img src="assets/images/ideathon-banner.png" alt="" />
+      </div>
+    </div>
+  </div>
+<div class="card">
+  <div class="card-body pb-0">
+    <div class="row">
+      <div class="col-sm-3">
+      </div>
+      <div class="col-sm-2">
+        <div class="input-group ps-5">
+          <div id="navbar-search-autocomplete" class="form-outline">
+            <input type="search" id="form1" class="form-control" (ngModelChange)="modalChanged($event)" [(ngModel)]="searchText" placeholder="Type of Diseases" />
+            <label class="form-label" for="form1"></label>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <button type="button" (click)="getDrugInfo(1)" class="btn btn-labeled btn-info mr-1">
+          <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span>Get Diseases/ICD10</button>
+        <button type="button" (click)="getDrugInfo(2)" class="btn btn-labeled btn-info mr-1">
+          <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span>Search Relevant
+          Concepts</button>
+          <button type="button" (click)="getDrugInfo(4)" class="btn btn-labeled btn-info mr-1">
+            <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span> 
+            Drug Codes</button>
+        <button type="button" (click)="getDrugInfo(3)" class="btn btn-labeled btn-info mr-1">
+          <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span>Find Substance
+          /Clinical Drugs</button>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12" style="text-align: center;">
+        <sa-spinner-dotted [enabled]="!gridData1 && AgLoad && gridNumber===1" [color]="'#1e90ff'">Finding
+          Diseases/ICD10...</sa-spinner-dotted>
+      </div>
+      <div class="col-sm-12" *ngIf="gridData1">
+        <!-- <div class="col-sm-12" > -->
+        <h5>Diseases/ICD10</h5>
+        <div class="card">
+          <div class="card-body">
+            <div class="ag-theme-balham" style="height:350px;">
+              <app-ag-grid [ColumnDefs]="grid1ColumnDefs" [RowData]="gridData1" [IsColumnsToFit]="true">
+              </app-ag-grid>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12" style="text-align: center;">
+        <sa-spinner-dotted [enabled]="!gridData2 && AgLoad && gridNumber===2" [color]="'#1e90ff'"> Getting Relevant
+          Concepts...</sa-spinner-dotted>
+      </div>
+
+      <div class="col-sm-12" *ngIf="gridData2">
+        <h5>Relevant Concepts</h5>
+        <div class="card">
+          <div class="card-body">
+            <div class="ag-theme-balham" style="height:350px;">
+              <app-ag-grid  [ColumnDefs]="grid2ColumnDefs" [RowData]="gridData2" [IsColumnsToFit]="true">
+              </app-ag-grid>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12" style="text-align: center;">
+        <sa-spinner-dotted [enabled]="!gridData4 && AgLoad && gridNumber===4" [color]="'#1e90ff'">Find 
+          Drug Codes
+          ...</sa-spinner-dotted>
+      </div>
+
+      <div class="col-sm-12" *ngIf="gridData4">
+        <h5>Find Drug Codes</h5>
+        <div class="card">
+          <div class="card-body">
+            <div class="ag-theme-balham" style="height:350px;">
+              <app-ag-grid [ColumnDefs]="grid4ColumnDefs" [RowData]="gridData4" [IsColumnsToFit]="true">
+              </app-ag-grid>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12" style="text-align: center;">
+        <sa-spinner-dotted [enabled]="!gridData3 && AgLoad && gridNumber===3" [color]="'#1e90ff'">Searching Clinical
+          Drugs
+          ...</sa-spinner-dotted>
+      </div>
+
+      <div class="col-sm-12" *ngIf="gridData3">
+        <h5>Pharmacological Substance/Clinical Drugs</h5>
+        <div class="card">
+          <div class="card-body">
+            <div class="ag-theme-balham" style="height:350px;">
+              <app-ag-grid [ColumnDefs]="grid3ColumnDefs" [RowData]="gridData3" [IsColumnsToFit]="true">
+              </app-ag-grid>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div  *ngIf="asthmaGrid">
+      <div style="text-align: center;">
+        <img src="assets/images/astma.png" style="width:1400px;height: 600px;" alt="">
+      </div>
+    </div>
+    <div  *ngIf="diabeticsGrid">
+      <div style="text-align: center;">
+        <img src="assets/images/diabetic.png" style="width:1400px;height: 600px;" alt="">
+      </div>
+    </div>
+  </div>
+</div>

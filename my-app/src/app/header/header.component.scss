@@ -1,0 +1,458 @@
+@import '../../sass/mixins';
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0 7.8125%;
+  background-color: #fff;
+  color: #222;
+  @media screen and (max-width: 1600px) and (max-height: 900px) {
+    height: 80px;
+  }
+  @media screen and (max-width: 1400px) and (max-height: 1050px) {
+    height: 80px;
+  }
+  @media screen and (max-width: 1280px) and (max-height: 1024px) {
+    height: 65px;
+  }
+  @media screen and (max-width: 1024px) and (max-height: 768px) {
+    height: 55px;
+  }
+  .header-logo {
+    // width: calc(50% - 7.8125%);
+    width: calc(50% - 40.8125%);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+
+    span {
+      text-shadow: none;
+    }
+    img {
+      height: 65px;
+      margin-right: 30px;
+      @media screen and (max-width: 1680px) and (max-height: 1050px) {
+        height: 65px;
+      }
+      @media screen and (max-width: 1600px) and (max-height: 900px) {
+        height: 55px;
+      }
+      @media screen and (max-width: 1440px) and (max-height: 900px) {
+        height: 52px;
+      }
+      @media screen and (max-width: 1400px) and (max-height: 1050px) {
+        height: 45px;
+        margin-right: 25px;
+      }
+      @media screen and (max-width: 1280px) and (max-height: 1024px) {
+        height: 43px;
+        margin-right: 15px;
+      }
+      @media screen and (max-width: 1152px) and (max-height: 864px) {
+        height: 36px;
+        margin-right: 14px;
+      }
+      @media screen and (max-width: 1024px) and (max-height: 768px) {
+        height: 30px;
+      }
+    }
+    span {
+      @include primary-fs(18);
+      letter-spacing: 0.5em;
+      line-height: 27px;
+      @media screen and (max-width: 1680px) and (max-height: 1050px) {
+        @include primary-fs(15);
+      }
+      @media screen and (max-width: 1600px) and (max-height: 900px) {
+        @include primary-fs(15);
+      }
+      @media screen and (max-width: 1440px) and (max-height: 900px) {
+        @include primary-fs(13);
+      }
+      @media screen and (max-width: 1400px) and (max-height: 1050px) {
+        @include primary-fs(13);
+      }
+      @media screen and (max-width: 1280px) and (max-height: 1024px) {
+        @include primary-fs(12);
+      }
+      @media screen and (max-width: 1152px) and (max-height: 864px) {
+        @include primary-fs(11);
+      }
+      @media screen and (max-width: 1024px) and (max-height: 768px) {
+        @include primary-fs(9);
+      }
+    }
+  }
+  .header-nav {
+    // width: calc(50% - 144px);
+    width: calc(50% - -260px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @media screen and (max-width: 1680px) and (max-height: 1050px) {
+      width: calc(46% - -260px);
+    }
+    @media screen and (max-width: 1600px) and (max-height: 900px) {
+      width: calc(45% - -260px);
+    }
+    @media screen and (max-width: 1440px) and (max-height: 900px) {
+      width: calc(41% - -260px);
+    }
+    @media screen and (max-width: 1400px) and (max-height: 1050px) {
+      width: calc(40% - -260px);
+    }
+    @media screen and (max-width: 1366px) and (max-height: 768px) {
+      width: calc(38% - -260px);
+    }
+    @media screen and (max-width: 1280px) and (max-height: 1024px) {
+      width: calc(36% - -260px);
+    }
+    @media screen and (max-width: 1152px) and (max-height: 864px) {
+      width: calc(30% - -260px);
+    }
+    @media screen and (max-width: 1024px) and (max-height: 768px) {
+      width: calc(26% - -260px);
+    }
+    .header-item {
+      position: relative;
+      &.logout {
+        @include primary-fs(15);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 35px;
+        right: 15px;
+        color: $primary-color;
+        img {
+          margin-right: 10px;
+        }
+      }
+      button {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        color: #000;
+        @include primary-fs(16);
+        height: 50px;
+        border: 1px solid #fff;
+        outline: none;
+        padding: 0px 40px;
+        margin: 5px;
+        cursor: default;
+        &.effect:hover {
+          cursor: pointer;
+          border: 1px solid $right-floating-bg;
+          color: $right-floating-bg;
+        }
+        &.effect:active {
+          box-shadow: none;
+          border: 1px solid $primary-color;
+        }
+        &.no-effect:hover {
+          box-shadow: none;
+          border: 1px solid $primary-color;
+          cursor: default;
+        }
+        &.active-sub-head {
+          opacity: 1;
+        }
+        @media screen and (max-width: 1680px) and (max-height: 1050px) {
+          padding: 0px 18px;
+          @include primary-fs(15);
+        }
+        @media screen and (max-width: 1600px) and (max-height: 900px) {
+          padding: 0px 16px;
+          @include primary-fs(15);
+        }
+        @media screen and (max-width: 1440px) and (max-height: 900px) {
+          padding: 0px 14px;
+          @include primary-fs(13);
+        }
+        @media screen and (max-width: 1400px) and (max-height: 1050px) {
+          padding: 0px 12px;
+          @include primary-fs(13);
+        }
+        @media screen and (max-width: 1366px) and (max-height: 768px) {
+          @include primary-fs(12);
+        }
+        @media screen and (max-width: 1280px) and (max-height: 1024px) {
+          padding: 0px 10px;
+          @include primary-fs(13);
+        }
+        @media screen and (max-width: 1280px) and (max-height: 960px) {
+          padding: 0px 10px;
+          @include primary-fs(12);
+          height: 40px;
+        }
+        @media screen and (max-width: 1152px) and (max-height: 864px) {
+          padding: 0px 6px;
+          @include primary-fs(12);
+        }
+        @media screen and (max-width: 1024px) and (max-height: 768px) {
+          padding: 0px 5px;
+          @include primary-fs(10);
+          height: 35px;
+        }
+        img {
+          margin-left: 10px;
+        }
+      }
+
+      .header-sub-nav {
+        display: none;
+        position: absolute;
+        top: 54px;
+        left: 5px;
+        background-color: #fff;
+        padding: 5px;
+        width: 91.8%;
+        border: 1px solid $primary-color;
+        @media screen and (max-width: 1680px) and (max-height: 1050px) {
+          width: 89.6%;
+        }
+        @media screen and (max-width: 1440px) and (max-height: 900px) {
+          width: 88.1%;
+        }
+        @media screen and (max-width: 1400px) and (max-height: 1050px) {
+          width: 87.9%;
+        }
+        @media screen and (max-width: 1366px) and (max-height: 768px) {
+          width: 87.2%;
+        }
+        @media screen and (max-width: 1280px) and (max-height: 1024px) {
+          top: 44px;
+          width: 86.2%;
+        }
+        @media screen and (max-width: 1152px) and (max-height: 864px) {
+          width: 84.5%;
+        }
+        @media screen and (max-width: 1024px) and (max-height: 768px) {
+          top: 39px;
+          width: 82.5%;
+        }
+        .header-sub-nav-item {
+          padding: 15px;
+          @include primary-fs(16);
+          color: $primary-color;
+          border-bottom: 1px solid #d4e5f5;
+          cursor: pointer;
+          &:last-child {
+            border-bottom: 0px solid #d4e5f5;
+          }
+          img {
+            width: 24px;
+          }
+          @media screen and (max-width: 1600px) and (max-height: 900px) {
+            @include primary-fs(15);
+          }
+          @media screen and (max-width: 1400px) and (max-height: 1050px) {
+            @include primary-fs(13);
+          }
+          @media screen and (max-width: 1366px) and (max-height: 768px) {
+            @include primary-fs(12);
+          }
+          @media screen and (max-width: 1280px) and (max-height: 1024px) {
+            padding: 14px;
+          }
+          @media screen and (max-width: 1280px) and (max-height: 960px) {
+            @include primary-fs(11);
+          }
+          @media screen and (max-width: 1152px) and (max-height: 864px) {
+            @include primary-fs(10);
+            padding: 11px;
+          }
+          @media screen and (max-width: 1024px) and (max-height: 768px) {
+            @include primary-fs(8);
+            padding: 10px;
+          }
+        }
+      }
+      .header-notification {
+        position: relative;
+        .header-notification-count {
+          position: absolute;
+          top: -5px;
+          left: 7px;
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background-color: #f34800;
+          @include primary-fs(10);
+          letter-spacing: -0.06em;
+          line-height: 27px;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+    .header-sub-nav-logout{
+      border: 1px solid black !important;
+      
+    }
+
+    .header-item:hover .header-sub-nav-logout {
+      display: block;
+    }
+
+    .btn-change {
+      border: 1px solid $primary-color !important;
+      color: $primary-color !important;
+      background-color: #fff !important;
+    }
+
+    .tab-change {
+      display: block !important;
+      background-color: #f2f7f8 !important;
+      min-width: 165px;
+      z-index: 9;
+    }
+
+    .tab-change-ideathons {
+      display: block !important;
+      background-color: #f2f7f8 !important;
+      width: 89.2% !important;
+      min-width: 175px;
+      z-index: 9;
+    }
+
+    .tab-change-experiments {
+      display: block !important;
+      background-color: #f2f7f8 !important;
+      width: 89.7% !important;
+      min-width: 165px;
+      z-index: 9;
+    }
+
+    .tab-change-innovation {
+      display: block !important;
+      background-color: #f2f7f8 !important;
+      width: 92.2% !important;
+      min-width: 165px;
+      z-index: 9;
+    }
+
+    .tab-change-myinitiatives {
+      display: block !important;
+      background-color: #f2f7f8 !important;
+      width: 90.4% !important;
+      min-width: 165px;
+      z-index: 9;
+      @media screen and (max-width: 1680px) and (max-height: 1050px) {
+        width: 87.6% !important;
+      }
+      @media screen and (max-width: 1600px) and (max-height: 900px) {
+        width: 87% !important;
+      }
+      @media screen and (max-width: 1440px) and (max-height: 900px) {
+        width: 86% !important;
+      }
+      @media screen and (max-width: 1400px) and (max-height: 1050px) {
+        width: 85.6% !important;
+      }
+      @media screen and (max-width: 1366px) and (max-height: 768px) {
+        width: 84.6% !important;
+      }
+      @media screen and (max-width: 1280px) and (max-height: 1024px) {
+        width: 83.6% !important;
+      }
+      @media screen and (max-width: 1152px) and (max-height: 864px) {
+        width: 81.5% !important;
+      }
+      @media screen and (max-width: 1024px) and (max-height: 768px) {
+        width: 79.5% !important;
+      }
+    }
+  }
+  .admin-nav {
+    position: absolute !important;
+    top: 25px;
+    right: 20px;
+    @media screen and (max-width: 1600px) and (max-height: 900px) {
+      top: 17px;
+    }
+    @media screen and (max-width: 1400px) and (max-height: 1050px) {
+      top: 17px;
+    }
+    @media screen and (max-width: 1280px) and (max-height: 1024px) {
+      top: 7px;
+    }
+    @media screen and (max-width: 1024px) and (max-height: 768px) {
+      top: 4px;
+    }
+    .header-sub-nav-item{
+      color: #000000 !important;
+      border-bottom: 1px solid #b4b4b4 !important;
+    }
+    .no-border{
+      border-bottom: 0px solid #b4b4b4 !important;
+    }
+    .btn-wrapper {
+      display: flex;
+      align-items: center;
+      button {
+        border: 1px solid #000000;
+        width: 40px;
+        height: 40px;
+        color: #000000;
+        background-color: $primary-quiz-bg;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 20px;
+        @include secondary-bold-fs(15);
+      }
+      img {
+        margin-left: -5px;
+      }
+    }
+    .header-sub-nav {
+      width: 140px !important;
+      top: 50px !important;
+      left: unset !important;
+      right: 0px !important;
+      .header-sub-nav-item {
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .waggle-logo {
+    position: absolute !important;
+    width: 190px !important;
+    top: 25px !important;
+    right: 150px;
+    @media screen and (max-width: 1680px) and (max-height: 1050px) {
+    }
+    @media screen and (max-width: 1600px) and (max-height: 900px) {
+      top: 17px !important;
+    }
+    @media screen and (max-width: 1440px) and (max-height: 900px) {
+    }
+    @media screen and (max-width: 1400px) and (max-height: 1050px) {
+      top: 17px !important;
+    }
+    @media screen and (max-width: 1280px) and (max-height: 1024px) {
+      top: 10px !important;
+      width: 175px !important;
+    }
+    @media screen and (max-width: 1152px) and (max-height: 864px) {
+    }
+    @media screen and (max-width: 1024px) and (max-height: 768px) {
+      top: 3px !important;
+      width: 170px !important;
+    }
+  }
+}
+
+.waggle-logo-link {
+  cursor: pointer;
+}

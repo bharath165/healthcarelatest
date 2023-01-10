@@ -1,0 +1,479 @@
+@import './variables';
+
+$prefixes: 'webkit', 'moz', 'ms', 'o', 'none';
+@mixin prefix($property, $arguments) {
+  @each $prefix in $prefixes {
+    @if $prefix == 'none' {
+      #{$property}: $arguments;
+    } @else {
+      -#{$prefix}-#{$property}: $arguments;
+    }
+  }
+}
+
+@mixin form-input-style() {
+  border: 1px solid #d9d9d9;
+  outline: none;
+}
+
+@mixin primary-fs($font-size) {
+  font-family: $primary-font;
+  font-size: $font-size + px;
+}
+
+@mixin primary-extrabold-fs($font-size) {
+  font-family: $primary-font-extrabold;
+  font-size: $font-size + px;
+}
+
+@mixin secondary-fs($font-size) {
+  font-family: $secondary-font;
+  font-size: $font-size + px;
+}
+
+@mixin secondary-light-fs($font-size) {
+  font-family: $secondary-font-light;
+  font-size: $font-size + px;
+}
+
+@mixin secondary-bold-fs($font-size) {
+  font-family: $secondary-font-bold;
+  font-size: $font-size + px;
+}
+
+@mixin secondary-extrabold-fs($font-size) {
+  font-family: $secondary-font-extrabold;
+  font-size: $font-size + px;
+}
+
+@mixin bgc-special() {
+  .bg-1 {
+    background-color: $special-color-1;
+  }
+  .bg-2 {
+    background-color: $special-color-2;
+  }
+  .bg-3 {
+    background-color: $special-color-3;
+  }
+  .bg-4 {
+    background-color: $special-color-4;
+  }
+  .bg-5 {
+    background-color: $special-color-5;
+  }
+  .bg-6 {
+    background-color: $special-color-6;
+  }
+  .bg-7 {
+    background-color: $special-color-7;
+  }
+  .bg-8 {
+    background-color: $special-color-8;
+  }
+  .bg-9 {
+    background-color: $special-color-9;
+  }
+  .bg-10 {
+    background-color: $special-color-10;
+  }
+  .bg-11 {
+    background-color: $special-color-11;
+  }
+  .bg-12 {
+    background-color: $special-color-12;
+  }
+  .bg-13 {
+    background-color: $special-color-13;
+  }
+  .bg-14 {
+    background-color: $special-color-14;
+  }
+  .bg-15 {
+    background-color: $special-color-15;
+  }
+}
+
+@mixin color-special() {
+  .color-1 {
+    color: $special-color-1;
+  }
+  .color-2 {
+    color: $special-color-2;
+  }
+  .color-3 {
+    color: $special-color-3;
+  }
+  .color-4 {
+    color: $special-color-4;
+  }
+  .color-5 {
+    color: $special-color-5;
+  }
+  .color-6 {
+    color: $special-color-6;
+  }
+  .color-7 {
+    color: $special-color-7;
+  }
+  .color-8 {
+    color: $special-color-8;
+  }
+  .color-9 {
+    color: $special-color-9;
+  }
+  .color-10 {
+    color: $special-color-10;
+  }
+  .color-11 {
+    color: $special-color-11;
+  }
+  .color-12 {
+    color: $special-color-12;
+  }
+  .color-13 {
+    color: $special-color-13;
+  }
+  .color-14 {
+    color: $special-color-14;
+  }
+  .color-15 {
+    color: $special-color-15;
+  }
+}
+
+@mixin domain-bgc() {
+  &.domain1 {
+    background-color: $special-color-1;
+  }
+  &.domain2 {
+    background-color: $special-color-2;
+  }
+  &.domain3 {
+    background-color: $special-color-3;
+  }
+  &.domain4 {
+    background-color: $special-color-4;
+  }
+  &.domain5 {
+    background-color: $special-color-5;
+  }
+  &.domain6 {
+    background-color: $special-color-6;
+  }
+  &.domain7 {
+    background-color: $special-color-7;
+  }
+  &.domain8 {
+    background-color: $special-color-8;
+  }
+  &.domain9 {
+    background-color: $special-color-9;
+  }
+  &.domain10 {
+    background-color: $special-color-10;
+  }
+  &.domain11 {
+    background-color: $special-color-11;
+  }
+  &.domain12 {
+    background-color: $special-color-12;
+  }
+  &.domain13 {
+    background-color: $special-color-13;
+  }
+  &.domain14 {
+    background-color: $special-color-14;
+  }
+  &.domain15 {
+    background-color: $special-color-15;
+  }
+}
+
+@mixin rgba-bg($opacity) {
+  &.domain1 {
+    background-color: rgba($special-color-1, $opacity);
+  }
+  &.domain2 {
+    background-color: rgba($special-color-2, $opacity);
+  }
+  &.domain3 {
+    background-color: rgba($special-color-3, $opacity);
+  }
+  &.domain4 {
+    background-color: rgba($special-color-4, $opacity);
+  }
+  &.domain5 {
+    background-color: rgba($special-color-5, $opacity);
+  }
+  &.domain6 {
+    background-color: rgba($special-color-6, $opacity);
+  }
+  &.domain7 {
+    background-color: rgba($special-color-7, $opacity);
+  }
+  &.domain8 {
+    background-color: rgba($special-color-8, $opacity);
+  }
+  &.domain9 {
+    background-color: rgba($special-color-9, $opacity);
+  }
+  &.domain10 {
+    background-color: rgba($special-color-10, $opacity);
+  }
+  &.domain11 {
+    background-color: rgba($special-color-11, $opacity);
+  }
+  &.domain12 {
+    background-color: rgba($special-color-12, $opacity);
+  }
+  &.domain13 {
+    background-color: rgba($special-color-13, $opacity);
+  }
+  &.domain14 {
+    background-color: rgba($special-color-14, $opacity);
+  }
+  &.domain15 {
+    background-color: rgba($special-color-15, $opacity);
+  }
+}
+
+@mixin domain-fill() {
+  &.domain1 {
+    fill: $special-color-1;
+  }
+  &.domain2 {
+    fill: $special-color-2;
+  }
+  &.domain3 {
+    fill: $special-color-3;
+  }
+  &.domain4 {
+    fill: $special-color-4;
+  }
+  &.domain5 {
+    fill: $special-color-5;
+  }
+  &.domain6 {
+    fill: $special-color-6;
+  }
+  &.domain7 {
+    fill: $special-color-7;
+  }
+  &.domain8 {
+    fill: $special-color-8;
+  }
+  &.domain9 {
+    fill: $special-color-9;
+  }
+  &.domain10 {
+    fill: $special-color-10;
+  }
+  &.domain11 {
+    fill: $special-color-11;
+  }
+  &.domain12 {
+    fill: $special-color-12;
+  }
+  &.domain13 {
+    fill: $special-color-13;
+  }
+  &.domain14 {
+    fill: $special-color-14;
+  }
+  &.domain15 {
+    fill: $special-color-15;
+  }
+}
+
+@mixin domain-border-right($opacity) {
+  &.domain1 {
+    border-right: 20px solid rgba($special-color-1, $opacity);
+  }
+  &.domain2 {
+    border-right: 20px solid rgba($special-color-2, $opacity);
+  }
+  &.domain3 {
+    border-right: 20px solid rgba($special-color-3, $opacity);
+  }
+  &.domain4 {
+    border-right: 20px solid rgba($special-color-4, $opacity);
+  }
+  &.domain5 {
+    border-right: 20px solid rgba($special-color-5, $opacity);
+  }
+  &.domain6 {
+    border-right: 20px solid rgba($special-color-6, $opacity);
+  }
+  &.domain7 {
+    border-right: 20px solid rgba($special-color-7, $opacity);
+  }
+  &.domain8 {
+    border-right: 20px solid rgba($special-color-8, $opacity);
+  }
+  &.domain9 {
+    border-right: 20px solid rgba($special-color-9, $opacity);
+  }
+  &.domain10 {
+    border-right: 20px solid rgba($special-color-10, $opacity);
+  }
+  &.domain11 {
+    border-right: 20px solid rgba($special-color-11, $opacity);
+  }
+  &.domain12 {
+    border-right: 20px solid rgba($special-color-12, $opacity);
+  }
+  &.domain13 {
+    border-right: 20px solid rgba($special-color-13, $opacity);
+  }
+  &.domain14 {
+    border-right: 20px solid rgba($special-color-14, $opacity);
+  }
+  &.domain15 {
+    border-right: 20px solid rgba($special-color-15, $opacity);
+  }
+}
+
+@mixin domain-border-left-15() {
+  &.domain1 {
+    border-left: 15px solid $special-color-1;
+  }
+  &.domain2 {
+    border-left: 15px solid $special-color-2;
+  }
+  &.domain3 {
+    border-left: 15px solid $special-color-3;
+  }
+  &.domain4 {
+    border-left: 15px solid $special-color-4;
+  }
+  &.domain5 {
+    border-left: 15px solid $special-color-5;
+  }
+  &.domain6 {
+    border-left: 15px solid $special-color-6;
+  }
+  &.domain7 {
+    border-left: 15px solid $special-color-7;
+  }
+  &.domain8 {
+    border-left: 15px solid $special-color-8;
+  }
+  &.domain9 {
+    border-left: 15px solid $special-color-9;
+  }
+  &.domain10 {
+    border-left: 15px solid $special-color-10;
+  }
+  &.domain11 {
+    border-left: 15px solid $special-color-11;
+  }
+  &.domain12 {
+    border-left: 15px solid $special-color-12;
+  }
+  &.domain13 {
+    border-left: 15px solid $special-color-13;
+  }
+  &.domain14 {
+    border-left: 15px solid $special-color-14;
+  }
+  &.domain15 {
+    border-left: 15px solid $special-color-15;
+  }
+}
+
+@mixin domain-border-1() {
+  &.domain1 {
+    border: 1px solid $special-color-1;
+  }
+  &.domain2 {
+    border: 1px solid $special-color-2;
+  }
+  &.domain3 {
+    border: 1px solid $special-color-3;
+  }
+  &.domain4 {
+    border: 1px solid $special-color-4;
+  }
+  &.domain5 {
+    border: 1px solid $special-color-5;
+  }
+  &.domain6 {
+    border: 1px solid $special-color-6;
+  }
+  &.domain7 {
+    border: 1px solid $special-color-7;
+  }
+  &.domain8 {
+    border: 1px solid $special-color-8;
+  }
+  &.domain9 {
+    border: 1px solid $special-color-9;
+  }
+  &.domain10 {
+    border: 1px solid $special-color-10;
+  }
+  &.domain11 {
+    border: 1px solid $special-color-11;
+  }
+  &.domain12 {
+    border: 1px solid $special-color-12;
+  }
+  &.domain13 {
+    border: 1px solid $special-color-13;
+  }
+  &.domain14 {
+    border: 1px solid $special-color-14;
+  }
+  &.domain15 {
+    border: 1px solid $special-color-15;
+  }
+}
+
+@mixin ideathon-banner-bg() {
+  &.bg-1 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-1);
+  }
+  &.bg-2 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-2);
+  }
+  &.bg-3 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-3);
+  }
+  &.bg-4 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-4);
+  }
+  &.bg-5 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-5);
+  }
+  &.bg-6 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-6);
+  }
+  &.bg-7 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-7);
+  }
+  &.bg-8 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-8);
+  }
+  &.bg-9 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-9);
+  }
+  &.bg-10 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-10);
+  }
+  &.bg-11 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-11);
+  }
+  &.bg-12 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-12);
+  }
+  &.bg-13 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-13);
+  }
+  &.bg-14 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-14);
+  }
+  &.bg-15 {
+    @include prefix(box-shadow, 0px 7px 20px -5px $special-color-15);
+  }
+}

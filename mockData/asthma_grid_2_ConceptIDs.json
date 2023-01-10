@@ -1,0 +1,762 @@
+﻿[
+    {
+        "Rx_Unique_ID": "C0081408",
+        "Rx_Code": "C26667",
+        "Drugname": "Zileuton"
+    },
+    {
+        "Rx_Unique_ID": "C0378466",
+        "Rx_Code": "C47785",
+        "Drugname": "Zafirlukast"
+    },
+    {
+        "Rx_Unique_ID": "C0041165",
+        "Rx_Code": "C66643",
+        "Drugname": "Troleandomycin"
+    },
+    {
+        "Rx_Unique_ID": "C0304297",
+        "Rx_Code": "C47774",
+        "Drugname": "Tripelennamine Hydrochloride"
+    },
+    {
+        "Rx_Unique_ID": "C0242524",
+        "Rx_Code": "C66641",
+        "Drugname": "Tripelennamine Citrate"
+    },
+    {
+        "Rx_Unique_ID": "C0041090",
+        "Rx_Code": "C61991",
+        "Drugname": "Tripelennamine"
+    },
+    {
+        "Rx_Unique_ID": "C0077004",
+        "Rx_Code": "C48026",
+        "Drugname": "Triamcinolone Hexacetonide"
+    },
+    {
+        "Rx_Unique_ID": "C0040867",
+        "Rx_Code": "C61985",
+        "Drugname": "Triamcinolone Diacetate"
+    },
+    {
+        "Rx_Unique_ID": "C0040866",
+        "Rx_Code": "C48027",
+        "Drugname": "Triamcinolone Acetonide"
+    },
+    {
+        "Rx_Unique_ID": "C0040864",
+        "Rx_Code": "C901",
+        "Drugname": "Triamcinolone"
+    },
+    {
+        "Rx_Unique_ID": "C0020268",
+        "Rx_Code": "C555",
+        "Drugname": "Therapeutic Hydrocortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0010137",
+        "Rx_Code": "C395",
+        "Drugname": "Therapeutic Cortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0304441",
+        "Rx_Code": "C61968",
+        "Drugname": "Theophylline Anhydrous"
+    },
+    {
+        "Rx_Unique_ID": "C0039771",
+        "Rx_Code": "C872",
+        "Drugname": "Theophylline"
+    },
+    {
+        "Rx_Unique_ID": "C0002575",
+        "Rx_Code": "C47393",
+        "Drugname": "Theophyline Ethylenediamine"
+    },
+    {
+        "Rx_Unique_ID": "C0039543",
+        "Rx_Code": "C47748",
+        "Drugname": "Terbutaline Sulfate"
+    },
+    {
+        "Rx_Unique_ID": "C0039542",
+        "Rx_Code": "C61965",
+        "Drugname": "Terbutaline"
+    },
+    {
+        "Rx_Unique_ID": "C0012694",
+        "Rx_Code": "C28946",
+        "Drugname": "Sodium Cromoglycate"
+    },
+    {
+        "Rx_Unique_ID": "C0245531",
+        "Rx_Code": "C61935",
+        "Drugname": "Salmeterol Xinafoate"
+    },
+    {
+        "Rx_Unique_ID": "C0073992",
+        "Rx_Code": "C29443",
+        "Drugname": "Salmeterol"
+    },
+    {
+        "Rx_Unique_ID": "C0543495",
+        "Rx_Code": "C47957",
+        "Drugname": "Salbutamol Sulphate"
+    },
+    {
+        "Rx_Unique_ID": "C1869620",
+        "Rx_Code": "C152197",
+        "Drugname": "Reslizumab"
+    },
+    {
+        "Rx_Unique_ID": "C0304431",
+        "Rx_Code": "C47696",
+        "Drugname": "Pseudoephedrine Sulfate"
+    },
+    {
+        "Rx_Unique_ID": "C0304430",
+        "Rx_Code": "C29390",
+        "Drugname": "Pseudoephedrine Hydrochloride"
+    },
+    {
+        "Rx_Unique_ID": "C0033798",
+        "Rx_Code": "C61914",
+        "Drugname": "Pseudoephedrine"
+    },
+    {
+        "Rx_Unique_ID": "C0032952",
+        "Rx_Code": "C770",
+        "Drugname": "Prednisonum"
+    },
+    {
+        "Rx_Unique_ID": "C0032952",
+        "Rx_Code": "C770",
+        "Drugname": "Prednisone"
+    },
+    {
+        "Rx_Unique_ID": "C0032950",
+        "Rx_Code": "C769",
+        "Drugname": "Prednisolonum"
+    },
+    {
+        "Rx_Unique_ID": "C0071844",
+        "Rx_Code": "C66461",
+        "Drugname": "Prednisolone Tebutate"
+    },
+    {
+        "Rx_Unique_ID": "C0138274",
+        "Rx_Code": "C1403",
+        "Drugname": "Prednisolone Sodium Succinate"
+    },
+    {
+        "Rx_Unique_ID": "C0138273",
+        "Rx_Code": "C1402",
+        "Drugname": "Prednisolone Sodium Phosphate"
+    },
+    {
+        "Rx_Unique_ID": "C0889299",
+        "Rx_Code": "C1862",
+        "Drugname": "Prednisolone Sodium Metasulphobenzoate"
+    },
+    {
+        "Rx_Unique_ID": "C0889299",
+        "Rx_Code": "C1862",
+        "Drugname": "Prednisolone Sodium Metasulfobenzoate"
+    },
+    {
+        "Rx_Unique_ID": "C0889299",
+        "Rx_Code": "C1862",
+        "Drugname": "Prednisolone Sodium 21-M-Sulfobenzoate"
+    },
+    {
+        "Rx_Unique_ID": "C0071842",
+        "Rx_Code": "C61904",
+        "Drugname": "Prednisolone Phosphate"
+    },
+    {
+        "Rx_Unique_ID": "C0889299",
+        "Rx_Code": "C1862",
+        "Drugname": "Prednisolone Methylsulfobenzoate"
+    },
+    {
+        "Rx_Unique_ID": "C0071839",
+        "Rx_Code": "C1202",
+        "Drugname": "Prednisolone Acetate"
+    },
+    {
+        "Rx_Unique_ID": "C0032950",
+        "Rx_Code": "C769",
+        "Drugname": "Prednisolone"
+    },
+    {
+        "Rx_Unique_ID": "C0304297",
+        "Rx_Code": "C47774",
+        "Drugname": "Piristin"
+    },
+    {
+        "Rx_Unique_ID": "C0770491",
+        "Rx_Code": "C76545",
+        "Drugname": "Pirbuterol Hydrochloride"
+    },
+    {
+        "Rx_Unique_ID": "C0724666",
+        "Rx_Code": "C47675",
+        "Drugname": "Pirbuterol Acetate"
+    },
+    {
+        "Rx_Unique_ID": "C0071129",
+        "Rx_Code": "C61893",
+        "Drugname": "Pirbuterol"
+    },
+    {
+        "Rx_Unique_ID": "C0055578",
+        "Rx_Code": "C47645",
+        "Drugname": "Oxtriphylline"
+    },
+    {
+        "Rx_Unique_ID": "C0966225",
+        "Rx_Code": "C29299",
+        "Drugname": "Omalizumab"
+    },
+    {
+        "Rx_Unique_ID": "C0966225",
+        "Rx_Code": "C29299",
+        "Drugname": "Olizumab"
+    },
+    {
+        "Rx_Unique_ID": "C0886658",
+        "Rx_Code": "C47635",
+        "Drugname": "Nedocromil Sodium"
+    },
+    {
+        "Rx_Unique_ID": "C0068483",
+        "Rx_Code": "C66225",
+        "Drugname": "Nedocromil"
+    },
+    {
+        "Rx_Unique_ID": "C0380447",
+        "Rx_Code": "C47625",
+        "Drugname": "Montelukast Sodium"
+    },
+    {
+        "Rx_Unique_ID": "C0298130",
+        "Rx_Code": "C66189",
+        "Drugname": "Montelukast"
+    },
+    {
+        "Rx_Unique_ID": "C0025815",
+        "Rx_Code": "C647",
+        "Drugname": "Methylprednisolonum"
+    },
+    {
+        "Rx_Unique_ID": "C0700546",
+        "Rx_Code": "C48004",
+        "Drugname": "Methylprednisolone Sodium Succinate"
+    },
+    {
+        "Rx_Unique_ID": "C0066430",
+        "Rx_Code": "C166880",
+        "Drugname": "Methylprednisolone Sodium Phosphate"
+    },
+    {
+        "Rx_Unique_ID": "C0600901",
+        "Rx_Code": "C48003",
+        "Drugname": "Methylprednisolone Acetate"
+    },
+    {
+        "Rx_Unique_ID": "C0174938",
+        "Rx_Code": "C90955",
+        "Drugname": "Methylprednisolone Aceponate"
+    },
+    {
+        "Rx_Unique_ID": "C0025815",
+        "Rx_Code": "C647",
+        "Drugname": "Methylprednisolone"
+    },
+    {
+        "Rx_Unique_ID": "C0014277",
+        "Rx_Code": "C47511",
+        "Drugname": "Methylflurether"
+    },
+    {
+        "Rx_Unique_ID": "C0011777",
+        "Rx_Code": "C422",
+        "Drugname": "Methylfluorprednisolone"
+    },
+    {
+        "Rx_Unique_ID": "C0025573",
+        "Rx_Code": "C47605",
+        "Drugname": "Metaproterenol Sulfate"
+    },
+    {
+        "Rx_Unique_ID": "C0029193",
+        "Rx_Code": "C61834",
+        "Drugname": "Metaproterenol"
+    },
+    {
+        "Rx_Unique_ID": "C0032950",
+        "Rx_Code": "C769",
+        "Drugname": "Metacortandralone"
+    },
+    {
+        "Rx_Unique_ID": "C0032952",
+        "Rx_Code": "C770",
+        "Drugname": "Metacortandracin"
+    },
+    {
+        "Rx_Unique_ID": "C0969324",
+        "Rx_Code": "C157376",
+        "Drugname": "Mepolizumab"
+    },
+    {
+        "Rx_Unique_ID": "C0022180",
+        "Rx_Code": "C65978",
+        "Drugname": "Isoflurane"
+    },
+    {
+        "Rx_Unique_ID": "C0022177",
+        "Rx_Code": "C65976",
+        "Drugname": "Isoetharine Mesylate"
+    },
+    {
+        "Rx_Unique_ID": "C0350279",
+        "Rx_Code": "C65975",
+        "Drugname": "Isoetharine Hydrochloride"
+    },
+    {
+        "Rx_Unique_ID": "C0022176",
+        "Rx_Code": "C65974",
+        "Drugname": "Isoetharine"
+    },
+    {
+        "Rx_Unique_ID": "C0063079",
+        "Rx_Code": "C48024",
+        "Drugname": "Hydrocortisone Valerate"
+    },
+    {
+        "Rx_Unique_ID": "C0770560",
+        "Rx_Code": "C1819",
+        "Drugname": "Hydrocortisone Sodium Succinate"
+    },
+    {
+        "Rx_Unique_ID": "C0770559",
+        "Rx_Code": "C65865",
+        "Drugname": "Hydrocortisone Sodium Phosphate"
+    },
+    {
+        "Rx_Unique_ID": "C0063076",
+        "Rx_Code": "C48023",
+        "Drugname": "Hydrocortisone Probutate"
+    },
+    {
+        "Rx_Unique_ID": "C0770560",
+        "Rx_Code": "C1819",
+        "Drugname": "Hydrocortisone Na Succinate"
+    },
+    {
+        "Rx_Unique_ID": "C0056387",
+        "Rx_Code": "C61786",
+        "Drugname": "Hydrocortisone Hemisuccinate"
+    },
+    {
+        "Rx_Unique_ID": "C0612688",
+        "Rx_Code": "C65864",
+        "Drugname": "Hydrocortisone Cypionate"
+    },
+    {
+        "Rx_Unique_ID": "C0352536",
+        "Rx_Code": "C48022",
+        "Drugname": "Hydrocortisone Butyrate"
+    },
+    {
+        "Rx_Unique_ID": "C0063077",
+        "Rx_Code": "C61785",
+        "Drugname": "Hydrocortisone Acetate"
+    },
+    {
+        "Rx_Unique_ID": "C0082944",
+        "Rx_Code": "C90952",
+        "Drugname": "Hydrocortisone Aceponate"
+    },
+    {
+        "Rx_Unique_ID": "C0770560",
+        "Rx_Code": "C1819",
+        "Drugname": "Hydrocortisone 21-Sodium Succinate"
+    },
+    {
+        "Rx_Unique_ID": "C0020268",
+        "Rx_Code": "C2290",
+        "Drugname": "Hydrocortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0020268",
+        "Rx_Code": "C555",
+        "Drugname": "Hydrocortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0011777",
+        "Rx_Code": "C422",
+        "Drugname": "Hexadecadrol"
+    },
+    {
+        "Rx_Unique_ID": "C0018549",
+        "Rx_Code": "C47554",
+        "Drugname": "Halothane"
+    },
+    {
+        "Rx_Unique_ID": "C0063750",
+        "Rx_Code": "C175075",
+        "Drugname": "Glycerol, Iodinated"
+    },
+    {
+        "Rx_Unique_ID": "C1646276",
+        "Rx_Code": "C132268",
+        "Drugname": "Funisolide Anhydrous"
+    },
+    {
+        "Rx_Unique_ID": "C1579393",
+        "Rx_Code": "C81648",
+        "Drugname": "Formoterol Fumarate Dihydrate"
+    },
+    {
+        "Rx_Unique_ID": "C0771469",
+        "Rx_Code": "C47540",
+        "Drugname": "Formoterol Fumarate"
+    },
+    {
+        "Rx_Unique_ID": "C0060657",
+        "Rx_Code": "C65754",
+        "Drugname": "Formoterol"
+    },
+    {
+        "Rx_Unique_ID": "C0117996",
+        "Rx_Code": "C29061",
+        "Drugname": "Fluticasone Propionate"
+    },
+    {
+        "Rx_Unique_ID": "C1948374",
+        "Rx_Code": "C77003",
+        "Drugname": "Fluticasone Furoate"
+    },
+    {
+        "Rx_Unique_ID": "C0082607",
+        "Rx_Code": "C61767",
+        "Drugname": "Fluticasone"
+    },
+    {
+        "Rx_Unique_ID": "C0060501",
+        "Rx_Code": "C29054",
+        "Drugname": "Flunisolide"
+    },
+    {
+        "Rx_Unique_ID": "C0700453",
+        "Rx_Code": "C92607",
+        "Drugname": "Fenoterol Hydrobromide"
+    },
+    {
+        "Rx_Unique_ID": "C0015840",
+        "Rx_Code": "C65659",
+        "Drugname": "Fenoterol"
+    },
+    {
+        "Rx_Unique_ID": "C0059871",
+        "Rx_Code": "C80611",
+        "Drugname": "Etofylline"
+    },
+    {
+        "Rx_Unique_ID": "C0951315",
+        "Rx_Code": "C76540",
+        "Drugname": "Ethylnorepinephrine Hydrochloride"
+    },
+    {
+        "Rx_Unique_ID": "C0602107",
+        "Rx_Code": "C75928",
+        "Drugname": "Ethylnorepinephrine"
+    },
+    {
+        "Rx_Unique_ID": "C0304426",
+        "Rx_Code": "C72765",
+        "Drugname": "Ephedrine Sulfate"
+    },
+    {
+        "Rx_Unique_ID": "C0304425",
+        "Rx_Code": "C75031",
+        "Drugname": "Ephedrine Hydrochloride"
+    },
+    {
+        "Rx_Unique_ID": "C0014479",
+        "Rx_Code": "C472",
+        "Drugname": "Ephedrine"
+    },
+    {
+        "Rx_Unique_ID": "C0014277",
+        "Rx_Code": "C47511",
+        "Drugname": "Enflurane"
+    },
+    {
+        "Rx_Unique_ID": "C0060657",
+        "Rx_Code": "C65754",
+        "Drugname": "Eformoterol"
+    },
+    {
+        "Rx_Unique_ID": "C0013360",
+        "Rx_Code": "C47504",
+        "Drugname": "Dyphylline"
+    },
+    {
+        "Rx_Unique_ID": "C0020268",
+        "Rx_Code": "C555",
+        "Drugname": "Domolene"
+    },
+    {
+        "Rx_Unique_ID": "C0012694",
+        "Rx_Code": "C28946",
+        "Drugname": "Disodium Cromoglycate"
+    },
+    {
+        "Rx_Unique_ID": "C0013360",
+        "Rx_Code": "C47504",
+        "Drugname": "Diprophylline"
+    },
+    {
+        "Rx_Unique_ID": "C0011777",
+        "Rx_Code": "C422",
+        "Drugname": "Dexamethasonum"
+    },
+    {
+        "Rx_Unique_ID": "C0057603",
+        "Rx_Code": "C77419",
+        "Drugname": "Dexamethasone Trimethyl Acetate"
+    },
+    {
+        "Rx_Unique_ID": "C0113286",
+        "Rx_Code": "C1362",
+        "Drugname": "Dexamethasone Sodium Phosphates"
+    },
+    {
+        "Rx_Unique_ID": "C0113286",
+        "Rx_Code": "C1362",
+        "Drugname": "Dexamethasone Sodium Phosphate"
+    },
+    {
+        "Rx_Unique_ID": "C0057603",
+        "Rx_Code": "C77419",
+        "Drugname": "Dexamethasone Pivalate"
+    },
+    {
+        "Rx_Unique_ID": "C0770565",
+        "Rx_Code": "C77001",
+        "Drugname": "Dexamethasone Phosphate"
+    },
+    {
+        "Rx_Unique_ID": "C0011779",
+        "Rx_Code": "C77418",
+        "Drugname": "Dexamethasone Isonicotinate"
+    },
+    {
+        "Rx_Unique_ID": "C1658209",
+        "Rx_Code": "C77000",
+        "Drugname": "Dexamethasone Acetate Anhydrous"
+    },
+    {
+        "Rx_Unique_ID": "C0057598",
+        "Rx_Code": "C1067",
+        "Drugname": "Dexamethasone Acetate"
+    },
+    {
+        "Rx_Unique_ID": "C0057603",
+        "Rx_Code": "C77419",
+        "Drugname": "Dexamethasone 21-pivalate"
+    },
+    {
+        "Rx_Unique_ID": "C0011777",
+        "Rx_Code": "C422",
+        "Drugname": "Dexamethasone"
+    },
+    {
+        "Rx_Unique_ID": "C0011777",
+        "Rx_Code": "C422",
+        "Drugname": "Desamethasone"
+    },
+    {
+        "Rx_Unique_ID": "C0032950",
+        "Rx_Code": "C769",
+        "Drugname": "Deltahydrocortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0032952",
+        "Rx_Code": "C770",
+        "Drugname": "Deltadehydrocortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0032952",
+        "Rx_Code": "C770",
+        "Drugname": "Deltacortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0032950",
+        "Rx_Code": "C769",
+        "Drugname": "Delta1-dehydro-hydrocortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0032950",
+        "Rx_Code": "C769",
+        "Drugname": "Delta(1)Hydrocortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0032950",
+        "Rx_Code": "C769",
+        "Drugname": "Delta-F"
+    },
+    {
+        "Rx_Unique_ID": "C0032952",
+        "Rx_Code": "C770",
+        "Drugname": "Delta 1-Cortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0304431",
+        "Rx_Code": "C47696",
+        "Drugname": "D-Isoephedrine Sulfate"
+    },
+    {
+        "Rx_Unique_ID": "C0012694",
+        "Rx_Code": "C28946",
+        "Drugname": "Cromolyn Sodium"
+    },
+    {
+        "Rx_Unique_ID": "C0086073",
+        "Rx_Code": "C61691",
+        "Drugname": "Cromolyn"
+    },
+    {
+        "Rx_Unique_ID": "C0056391",
+        "Rx_Code": "C1058",
+        "Drugname": "Cortisone Acetate"
+    },
+    {
+        "Rx_Unique_ID": "C0010137",
+        "Rx_Code": "C395",
+        "Drugname": "Cortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0010137",
+        "Rx_Code": "C2291",
+        "Drugname": "Cortisone"
+    },
+    {
+        "Rx_Unique_ID": "C0770560",
+        "Rx_Code": "C1819",
+        "Drugname": "Cortisol Sodium Succinate"
+    },
+    {
+        "Rx_Unique_ID": "C0020268",
+        "Rx_Code": "C2290",
+        "Drugname": "Cortisol"
+    },
+    {
+        "Rx_Unique_ID": "C0020268",
+        "Rx_Code": "C555",
+        "Drugname": "Cortisol"
+    },
+    {
+        "Rx_Unique_ID": "C0055936",
+        "Rx_Code": "C80809",
+        "Drugname": "Cloprednol"
+    },
+    {
+        "Rx_Unique_ID": "C0055578",
+        "Rx_Code": "C47645",
+        "Drugname": "Choline, hydroxide, compound with Theophylline(1:1)"
+    },
+    {
+        "Rx_Unique_ID": "C2825339",
+        "Rx_Code": "C80808",
+        "Drugname": "Budesonide (11beta,16alpha(S))"
+    },
+    {
+        "Rx_Unique_ID": "C0054201",
+        "Rx_Code": "C1027",
+        "Drugname": "Budesonide"
+    },
+    {
+        "Rx_Unique_ID": "C0106575",
+        "Rx_Code": "C65268",
+        "Drugname": "Bitolterol Mesylate"
+    },
+    {
+        "Rx_Unique_ID": "C0053817",
+        "Rx_Code": "C65267",
+        "Drugname": "Bitolterol"
+    },
+    {
+        "Rx_Unique_ID": "C2982078",
+        "Rx_Code": "C88594",
+        "Drugname": "Benralizumab"
+    },
+    {
+        "Rx_Unique_ID": "C0795584",
+        "Rx_Code": "C61644",
+        "Drugname": "Beclomethasone Dipropionate Monohydrate"
+    },
+    {
+        "Rx_Unique_ID": "C0004906",
+        "Rx_Code": "C299",
+        "Drugname": "Beclomethasone Dipropionate"
+    },
+    {
+        "Rx_Unique_ID": "C0081729",
+        "Rx_Code": "C90950",
+        "Drugname": "Beclomethasone 17-Monopropionate"
+    },
+    {
+        "Rx_Unique_ID": "C0004905",
+        "Rx_Code": "C62009",
+        "Drugname": "Beclomethasone"
+    },
+    {
+        "Rx_Unique_ID": "C0052944",
+        "Rx_Code": "C81692",
+        "Drugname": "Bambuterol"
+    },
+    {
+        "Rx_Unique_ID": "C2982078",
+        "Rx_Code": "C88594",
+        "Drugname": "Anti-CD125 Humanized Monoclonal Antibody, IgG1-kappa"
+    },
+    {
+        "Rx_Unique_ID": "C0002575",
+        "Rx_Code": "C47393",
+        "Drugname": "Ammophyllin"
+    },
+    {
+        "Rx_Unique_ID": "C3472162",
+        "Rx_Code": "C76313",
+        "Drugname": "Aminophylline Dihydrate"
+    },
+    {
+        "Rx_Unique_ID": "C0002575",
+        "Rx_Code": "C47393",
+        "Drugname": "Aminophylline"
+    },
+    {
+        "Rx_Unique_ID": "C0543495",
+        "Rx_Code": "C47957",
+        "Drugname": "Albuterol Sulfate"
+    },
+    {
+        "Rx_Unique_ID": "C0001927",
+        "Rx_Code": "C215",
+        "Drugname": "Albuterol"
+    },
+    {
+        "Rx_Unique_ID": "C0056391",
+        "Rx_Code": "C1058",
+        "Drugname": "6alpha,9Difluoro-11beta,17,21-trihydroxypregna-1,4- diene-3,20-dione 21-acetate 17- Butyrate"
+    },
+    {
+        "Rx_Unique_ID": "C0014479",
+        "Rx_Code": "C472",
+        "Drugname": "(-)-Ephedrine"
+    }
+]

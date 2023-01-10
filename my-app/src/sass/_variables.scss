@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Fort';
+  src: url(/assets/fonts/Fort-Book.otf) format('opentype');
+}
+@font-face {
+  font-family: 'FortExtraBold';
+  src: url(/assets/fonts/Fort-Extrabold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'FortTT';
+  src: url(/assets/fonts/FortTT-Book.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FortTTBold';
+  src: url(/assets/fonts/FortTT-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FortTTExtraBold';
+  src: url(/assets/fonts/FortTT-Extrabold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FortTTLight';
+  src: url(/assets/fonts/FortTT-Light.ttf) format('truetype');
+}
+
+$primary-color: #27757c;
+$primary-quiz-bg: #f2f7f8;
+$secondary-color: #0097ac;
+$right-floating-bg: #006e74;
+
+$special-color-1: #665fd1;
+$special-color-2: #574b90;
+$special-color-3: #38ada9;
+$special-color-4: #a55eea;
+$special-color-5: #d55558;
+$special-color-6: #d6a05b;
+$special-color-7: #a4670b;
+$special-color-8: #477e80;
+$special-color-9: #fc824a;
+$special-color-10: #ff1e00;
+$special-color-11: #00aeff;
+$special-color-12: #324e7b;
+$special-color-13: #c94e4e;
+$special-color-14: #01beff;
+$special-color-15: #606060;
+
+$primary-font: 'Fort', sans-serif;
+$primary-font-extrabold: 'FortExtraBold', sans-serif;
+$secondary-font: 'FortTT', sans-serif;
+$secondary-font-light: 'FortTTLight', sans-serif;
+$secondary-font-bold: 'FortTTBold', sans-serif;
+$secondary-font-extrabold: 'FortTTExtraBold', sans-serif;

@@ -1,0 +1,86 @@
+﻿[
+    {
+        "ICD10_ID": "J45",
+        "Disease": "Asthma"
+    },
+    {
+        "ICD10_ID": "J452",
+        "Disease": "Mild intermittent asthma"
+    },
+    {
+        "ICD10_ID": "J4521",
+        "Disease": "Mild intermittent asthma with (acute) exacerbation"
+    },
+    {
+        "ICD10_ID": "J4522",
+        "Disease": "Mild intermittent asthma with status asthmaticus"
+    },
+    {
+        "ICD10_ID": "J453",
+        "Disease": "Mild persistent asthma"
+    },
+    {
+        "ICD10_ID": "J4531",
+        "Disease": "Mild persistent asthma with (acute) exacerbation"
+    },
+    {
+        "ICD10_ID": "J4532",
+        "Disease": "Mild persistent asthma with status asthmaticus"
+    },
+    {
+        "ICD10_ID": "J454",
+        "Disease": "Moderate persistent asthma"
+    },
+    {
+        "ICD10_ID": "J4541",
+        "Disease": "Moderate persistent asthma with (acute) exacerbation"
+    },
+    {
+        "ICD10_ID": "J4542",
+        "Disease": "Moderate persistent asthma with status asthmaticus"
+    },
+    {
+        "ICD10_ID": "J455",
+        "Disease": "Severe persistent asthma"
+    },
+    {
+        "ICD10_ID": "J4551",
+        "Disease": "Severe persistent asthma with (acute) exacerbation"
+    },
+    {
+        "ICD10_ID": "J4552",
+        "Disease": "Severe persistent asthma with status asthmaticus"
+    },
+    {
+        "ICD10_ID": "J459",
+        "Disease": "Other and unspecified asthma"
+    },
+    {
+        "ICD10_ID": "J4590",
+        "Disease": "Unspecified asthma"
+    },
+    {
+        "ICD10_ID": "J45901",
+        "Disease": "Unspecified asthma with (acute) exacerbation"
+    },
+    {
+        "ICD10_ID": "J45902",
+        "Disease": "Unspecified asthma with status asthmaticus"
+    },
+    {
+        "ICD10_ID": "J4599",
+        "Disease": "Other asthma"
+    },
+    {
+        "ICD10_ID": "J45991",
+        "Disease": "Cough variant asthma"
+    },
+    {
+        "ICD10_ID": "J45998",
+        "Disease": "Other asthma"
+    },
+    {
+        "ICD10_ID": "Z825",
+        "Disease": "Family history of asthma and oth chronic lower resp diseases"
+    }
+]

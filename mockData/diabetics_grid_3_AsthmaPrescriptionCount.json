@@ -1,0 +1,342 @@
+﻿ [
+        {
+            "GENERIC_PROD_ID_NAME": "METFORMIN HCL TAB ER 24HR 500 MG",
+            "COUNT": "6297031"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "METFORMIN HCL TAB 500 MG",
+            "COUNT": "5941010"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "METFORMIN HCL TAB 1000 MG",
+            "COUNT": "4433530"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIMEPIRIDE TAB 4 MG",
+            "COUNT": "1510425"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIPIZIDE TAB 5 MG",
+            "COUNT": "1208120"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIMEPIRIDE TAB 2 MG",
+            "COUNT": "1190494"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIPIZIDE TAB 10 MG",
+            "COUNT": "1068589"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIPIZIDE TAB ER 24HR 10 MG",
+            "COUNT": "771024"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "METFORMIN HCL TAB ER 24HR 750 MG",
+            "COUNT": "714440"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIPIZIDE TAB ER 24HR 5 MG",
+            "COUNT": "645171"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "PIOGLITAZONE HCL TAB 30 MG (BASE EQUIV)",
+            "COUNT": "616833"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIMEPIRIDE TAB 1 MG",
+            "COUNT": "597620"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "METFORMIN HCL TAB 850 MG",
+            "COUNT": "515384"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "PIOGLITAZONE HCL TAB 15 MG (BASE EQUIV)",
+            "COUNT": "472240"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIPIZIDE TAB ER 24HR 2.5 MG",
+            "COUNT": "385842"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "CANAGLIFLOZIN TAB 300 MG",
+            "COUNT": "303951"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "PIOGLITAZONE HCL TAB 45 MG (BASE EQUIV)",
+            "COUNT": "295790"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "COLESEVELAM HCL TAB 625 MG",
+            "COUNT": "218525"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "CANAGLIFLOZIN TAB 100 MG",
+            "COUNT": "198719"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN ASPART SOLN PEN-INJECTOR 100 UNIT/ML",
+            "COUNT": "168801"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLYBURIDE TAB 5 MG",
+            "COUNT": "155669"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLYBURIDE-METFORMIN TAB 5-500 MG",
+            "COUNT": "102523"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIPIZIDE-METFORMIN HCL TAB 5-500 MG",
+            "COUNT": "100187"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN ASPART INJ SOLN 100 UNIT/ML",
+            "COUNT": "87737"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN BENZOATE TAB 25 MG (BASE EQUIV)",
+            "COUNT": "75994"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "METFORMIN HCL TAB ER 24HR OSMOTIC 1000 MG",
+            "COUNT": "53430"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "REPAGLINIDE TAB 1 MG",
+            "COUNT": "52984"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "NATEGLINIDE TAB 120 MG",
+            "COUNT": "50614"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "REPAGLINIDE TAB 2 MG",
+            "COUNT": "49899"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLYBURIDE-METFORMIN TAB 2.5-500 MG",
+            "COUNT": "46877"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLYBURIDE TAB 2.5 MG",
+            "COUNT": "45238"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "PIOGLITAZONE HCL-METFORMIN HCL TAB 15-850 MG",
+            "COUNT": "42480"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIPIZIDE-METFORMIN HCL TAB 2.5-500 MG",
+            "COUNT": "41992"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ACARBOSE TAB 25 MG",
+            "COUNT": "37614"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "REPAGLINIDE TAB 0.5 MG",
+            "COUNT": "35571"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ACARBOSE TAB 50 MG",
+            "COUNT": "35128"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "CANAGLIFLOZIN-METFORMIN HCL TAB 150-1000 MG",
+            "COUNT": "35108"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN LISPRO SOLN PEN-INJECTOR 100 UNIT/ML (1 UNIT DIAL)",
+            "COUNT": "34128"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "NATEGLINIDE TAB 60 MG",
+            "COUNT": "30868"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "CANAGLIFLOZIN-METFORMIN HCL TAB ER 24HR 150-1000 MG",
+            "COUNT": "27528"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "METFORMIN HCL TAB ER 24HR MODIFIED RELEASE 1000 MG",
+            "COUNT": "24926"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN LISPRO INJ SOLN 100 UNIT/ML",
+            "COUNT": "24221"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "PIOGLITAZONE HCL-METFORMIN HCL TAB 15-500 MG",
+            "COUNT": "21617"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN ASPART PROT & ASPART SUS PEN-INJ 100 UNIT/ML (70-30)",
+            "COUNT": "18107"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ACARBOSE TAB 100 MG",
+            "COUNT": "17467"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "COLESEVELAM HCL PACKET FOR SUSP 3.75 GM",
+            "COUNT": "16530"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN-METFORMIN HCL TAB 12.5-1000 MG",
+            "COUNT": "13779"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "CANAGLIFLOZIN-METFORMIN HCL TAB 50-1000 MG",
+            "COUNT": "13077"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN BENZOATE TAB 12.5 MG (BASE EQUIV)",
+            "COUNT": "12668"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "METFORMIN HCL TAB ER 24HR OSMOTIC 500 MG",
+            "COUNT": "12375"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLYBURIDE TAB 1.25 MG",
+            "COUNT": "11479"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "METFORMIN HCL TAB ER 24HR MODIFIED RELEASE 500 MG",
+            "COUNT": "10754"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "METFORMIN HCL ORAL SOLN 500 MG/5ML",
+            "COUNT": "8774"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "CANAGLIFLOZIN-METFORMIN HCL TAB ER 24HR 50-1000 MG",
+            "COUNT": "7072"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "CANAGLIFLOZIN-METFORMIN HCL TAB 150-500 MG",
+            "COUNT": "7063"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN GLARGINE SOLN PEN-INJECTOR 100 UNIT/ML",
+            "COUNT": "6130"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN ASPART SOLN CARTRIDGE 100 UNIT/ML",
+            "COUNT": "5536"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "CANAGLIFLOZIN-METFORMIN HCL TAB 50-500 MG",
+            "COUNT": "5129"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN ASPART PROT & ASPART (HUMAN) INJ 100 UNIT/ML (70-30)",
+            "COUNT": "5121"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "CANAGLIFLOZIN-METFORMIN HCL TAB ER 24HR 150-500 MG",
+            "COUNT": "4741"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN BENZOATE TAB 6.25 MG (BASE EQUIV)",
+            "COUNT": "4242"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLYBURIDE-METFORMIN TAB 1.25-250 MG",
+            "COUNT": "4125"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN-METFORMIN HCL TAB 12.5-500 MG",
+            "COUNT": "3488"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN-PIOGLITAZONE TAB 25-30 MG",
+            "COUNT": "3446"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "GLIPIZIDE-METFORMIN HCL TAB 2.5-250 MG",
+            "COUNT": "3198"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "PIOGLITAZONE HCL-GLIMEPIRIDE TAB 30-4 MG",
+            "COUNT": "2586"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "CANAGLIFLOZIN-METFORMIN HCL TAB ER 24HR 50-500 MG",
+            "COUNT": "2502"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN REGULAR (HUMAN) INH POWD 60X4 & 60X8 & 60X12 UT/CART",
+            "COUNT": "2349"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "PIOGLITAZONE HCL-GLIMEPIRIDE TAB 30-2 MG",
+            "COUNT": "1866"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN REGULAR (HUMAN) INHAL POWD 90 X 4 UNIT & 90 X 8 UNIT",
+            "COUNT": "1837"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN-PIOGLITAZONE TAB 25-15 MG",
+            "COUNT": "1748"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN REGULAR (HUMAN) INHALATION POWDER 4 UNIT/CARTRIDGE",
+            "COUNT": "1576"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN-PIOGLITAZONE TAB 25-45 MG",
+            "COUNT": "947"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN GLARGINE INJ 100 UNIT/ML",
+            "COUNT": "894"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "MIGLITOL TAB 25 MG",
+            "COUNT": "827"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN REGULAR (HUMAN) INHALATION POWDER 12 UNIT/CARTRIDGE",
+            "COUNT": "809"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN REGULAR (HUMAN) INHALATION POWDER 8 UNIT/CARTRIDGE",
+            "COUNT": "779"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "MIGLITOL TAB 50 MG",
+            "COUNT": "717"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "PIOGLITAZONE HCL-METFORMIN HCL TAB ER 24HR 15-1000 MG",
+            "COUNT": "556"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN-PIOGLITAZONE TAB 12.5-15 MG",
+            "COUNT": "462"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "INSULIN REGULAR (HUMAN) INH POWD 90 X 8 UNIT & 90 X 12 UNIT",
+            "COUNT": "456"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "MIGLITOL TAB 100 MG",
+            "COUNT": "338"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN-PIOGLITAZONE TAB 12.5-30 MG",
+            "COUNT": "231"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "PIOGLITAZONE HCL-METFORMIN HCL TAB ER 24HR 30-1000 MG",
+            "COUNT": "182"
+        },
+        {
+            "GENERIC_PROD_ID_NAME": "ALOGLIPTIN-PIOGLITAZONE TAB 12.5-45 MG",
+            "COUNT": "47"
+        }
+    ]

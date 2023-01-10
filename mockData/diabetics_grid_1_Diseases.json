@@ -1,0 +1,230 @@
+﻿[
+    {
+        "ICD10_ID": "E11",
+        "Disease": "Type 2 diabetes mellitus"
+    },
+    {
+        "ICD10_ID": "E110",
+        "Disease": "Type 2 diabetes mellitus with hyperosmolarity"
+    },
+    {
+        "ICD10_ID": "E1101",
+        "Disease": "Type 2 diabetes mellitus with hyperosmolarity with coma"
+    },
+    {
+        "ICD10_ID": "E112",
+        "Disease": "Type 2 diabetes mellitus with kidney complications"
+    },
+    {
+        "ICD10_ID": "E1121",
+        "Disease": "Type 2 diabetes mellitus with diabetic nephropathy"
+    },
+    {
+        "ICD10_ID": "E1122",
+        "Disease": "Type 2 diabetes mellitus w diabetic chronic kidney disease"
+    },
+    {
+        "ICD10_ID": "E1129",
+        "Disease": "Type 2 diabetes mellitus w oth diabetic kidney complication"
+    },
+    {
+        "ICD10_ID": "E113",
+        "Disease": "Type 2 diabetes mellitus with ophthalmic complications"
+    },
+    {
+        "ICD10_ID": "E1131",
+        "Disease": "Type 2 diabetes mellitus with unsp diabetic retinopathy"
+    },
+    {
+        "ICD10_ID": "E11311",
+        "Disease": "Type 2 diabetes w unsp diabetic retinopathy w macular edema"
+    },
+    {
+        "ICD10_ID": "E11319",
+        "Disease": "Type 2 diabetes w unsp diabetic rtnop w/o macular edema"
+    },
+    {
+        "ICD10_ID": "E1132",
+        "Disease": "Type 2 diabetes w mild nonproliferative diabetic retinopathy"
+    },
+    {
+        "ICD10_ID": "E1133",
+        "Disease": "Type 2 diabetes w moderate nonprlf diabetic retinopathy"
+    },
+    {
+        "ICD10_ID": "E1134",
+        "Disease": "Type 2 diabetes w severe nonprlf diabetic retinopathy"
+    },
+    {
+        "ICD10_ID": "E1135",
+        "Disease": "Type 2 diabetes w proliferative diabetic retinopathy"
+    },
+    {
+        "ICD10_ID": "E11351",
+        "Disease": "Type 2 diabetes w prolif diabetic rtnop w macular edema"
+    },
+    {
+        "ICD10_ID": "E11359",
+        "Disease": "Type 2 diabetes w prolif diabetic rtnop w/o macular edema"
+    },
+    {
+        "ICD10_ID": "E1136",
+        "Disease": "Type 2 diabetes mellitus with diabetic cataract"
+    },
+    {
+        "ICD10_ID": "E1139",
+        "Disease": "Type 2 diabetes w oth diabetic ophthalmic complication"
+    },
+    {
+        "ICD10_ID": "E114",
+        "Disease": "Type 2 diabetes mellitus with neurological complications"
+    },
+    {
+        "ICD10_ID": "E1140",
+        "Disease": "Type 2 diabetes mellitus with diabetic neuropathy, unsp"
+    },
+    {
+        "ICD10_ID": "E1141",
+        "Disease": "Type 2 diabetes mellitus with diabetic mononeuropathy"
+    },
+    {
+        "ICD10_ID": "E1142",
+        "Disease": "Type 2 diabetes mellitus with diabetic polyneuropathy"
+    },
+    {
+        "ICD10_ID": "E1143",
+        "Disease": "Type 2 diabetes w diabetic autonomic (poly)neuropathy"
+    },
+    {
+        "ICD10_ID": "E1144",
+        "Disease": "Type 2 diabetes mellitus with diabetic amyotrophy"
+    },
+    {
+        "ICD10_ID": "E1149",
+        "Disease": "Type 2 diabetes w oth diabetic neurological complication"
+    },
+    {
+        "ICD10_ID": "E115",
+        "Disease": "Type 2 diabetes mellitus with circulatory complications"
+    },
+    {
+        "ICD10_ID": "E1151",
+        "Disease": "Type 2 diabetes w diabetic peripheral angiopath w/o gangrene"
+    },
+    {
+        "ICD10_ID": "E1152",
+        "Disease": "Type 2 diabetes w diabetic peripheral angiopathy w gangrene"
+    },
+    {
+        "ICD10_ID": "E1159",
+        "Disease": "Type 2 diabetes mellitus with oth circulatory complications"
+    },
+    {
+        "ICD10_ID": "E116",
+        "Disease": "Type 2 diabetes mellitus with other specified complications"
+    },
+    {
+        "ICD10_ID": "E1161",
+        "Disease": "Type 2 diabetes mellitus with diabetic arthropathy"
+    },
+    {
+        "ICD10_ID": "E11610",
+        "Disease": "Type 2 diabetes mellitus w diabetic neuropathic arthropathy"
+    },
+    {
+        "ICD10_ID": "E11618",
+        "Disease": "Type 2 diabetes mellitus with other diabetic arthropathy"
+    },
+    {
+        "ICD10_ID": "E1162",
+        "Disease": "Type 2 diabetes mellitus with skin complications"
+    },
+    {
+        "ICD10_ID": "E11620",
+        "Disease": "Type 2 diabetes mellitus with diabetic dermatitis"
+    },
+    {
+        "ICD10_ID": "E11621",
+        "Disease": "Type 2 diabetes mellitus with foot ulcer"
+    },
+    {
+        "ICD10_ID": "E11622",
+        "Disease": "Type 2 diabetes mellitus with other skin ulcer"
+    },
+    {
+        "ICD10_ID": "E11628",
+        "Disease": "Type 2 diabetes mellitus with other skin complications"
+    },
+    {
+        "ICD10_ID": "E1163",
+        "Disease": "Type 2 diabetes mellitus with oral complications"
+    },
+    {
+        "ICD10_ID": "E11630",
+        "Disease": "Type 2 diabetes mellitus with periodontal disease"
+    },
+    {
+        "ICD10_ID": "E11638",
+        "Disease": "Type 2 diabetes mellitus with other oral complications"
+    },
+    {
+        "ICD10_ID": "E1164",
+        "Disease": "Type 2 diabetes mellitus with hypoglycemia"
+    },
+    {
+        "ICD10_ID": "E11641",
+        "Disease": "Type 2 diabetes mellitus with hypoglycemia with coma"
+    },
+    {
+        "ICD10_ID": "E11649",
+        "Disease": "Type 2 diabetes mellitus with hypoglycemia without coma"
+    },
+    {
+        "ICD10_ID": "E1165",
+        "Disease": "Type 2 diabetes mellitus with hyperglycemia"
+    },
+    {
+        "ICD10_ID": "E1169",
+        "Disease": "Type 2 diabetes mellitus with other specified complication"
+    },
+    {
+        "ICD10_ID": "E118",
+        "Disease": "Type 2 diabetes mellitus with unspecified complications"
+    },
+    {
+        "ICD10_ID": "E119",
+        "Disease": "Type 2 diabetes mellitus without complications"
+    },
+    {
+        "ICD10_ID": "O241",
+        "Disease": "Pre-exist diabetes, type 2, in preg, chldbrth and the puerp"
+    },
+    {
+        "ICD10_ID": "O2411",
+        "Disease": "Pre-existing diabetes mellitus, type 2, in pregnancy"
+    },
+    {
+        "ICD10_ID": "O24111",
+        "Disease": "Pre-existing diabetes, type 2, in pregnancy, first trimester"
+    },
+    {
+        "ICD10_ID": "O24112",
+        "Disease": "Pre-exist diabetes, type 2, in pregnancy, second trimester"
+    },
+    {
+        "ICD10_ID": "O24113",
+        "Disease": "Pre-existing diabetes, type 2, in pregnancy, third trimester"
+    },
+    {
+        "ICD10_ID": "O24119",
+        "Disease": "Pre-existing diabetes, type 2, in pregnancy, unsp trimester"
+    },
+    {
+        "ICD10_ID": "O2412",
+        "Disease": "Pre-existing diabetes mellitus, type 2, in childbirth"
+    },
+    {
+        "ICD10_ID": "O2413",
+        "Disease": "Pre-existing diabetes mellitus, type 2, in the puerperium"
+    }
+]

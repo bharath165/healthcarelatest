@@ -1,0 +1,342 @@
+[
+  {
+    "Disease": "Asthma", 
+    "ICD10_ID": "J45"
+  }, 
+  {
+    "Disease": "Mild intermittent asthma", 
+    "ICD10_ID": "J452"
+  }, 
+  {
+    "Disease": "Mild intermittent asthma, uncomplicated", 
+    "ICD10_ID": "J4520"
+  }, 
+  {
+    "Disease": "Mild intermittent asthma with (acute) exacerbation", 
+    "ICD10_ID": "J4521"
+  }, 
+  {
+    "Disease": "Mild intermittent asthma with status asthmaticus", 
+    "ICD10_ID": "J4522"
+  }, 
+  {
+    "Disease": "Mild persistent asthma", 
+    "ICD10_ID": "J453"
+  }, 
+  {
+    "Disease": "Mild persistent asthma, uncomplicated", 
+    "ICD10_ID": "J4530"
+  }, 
+  {
+    "Disease": "Mild persistent asthma with (acute) exacerbation", 
+    "ICD10_ID": "J4531"
+  }, 
+  {
+    "Disease": "Mild persistent asthma with status asthmaticus", 
+    "ICD10_ID": "J4532"
+  }, 
+  {
+    "Disease": "Moderate persistent asthma", 
+    "ICD10_ID": "J454"
+  }, 
+  {
+    "Disease": "Moderate persistent asthma, uncomplicated", 
+    "ICD10_ID": "J4540"
+  }, 
+  {
+    "Disease": "Moderate persistent asthma with (acute) exacerbation", 
+    "ICD10_ID": "J4541"
+  }, 
+  {
+    "Disease": "Moderate persistent asthma with status asthmaticus", 
+    "ICD10_ID": "J4542"
+  }, 
+  {
+    "Disease": "Severe persistent asthma", 
+    "ICD10_ID": "J455"
+  }, 
+  {
+    "Disease": "Severe persistent asthma, uncomplicated", 
+    "ICD10_ID": "J4550"
+  }, 
+  {
+    "Disease": "Severe persistent asthma with (acute) exacerbation", 
+    "ICD10_ID": "J4551"
+  }, 
+  {
+    "Disease": "Severe persistent asthma with status asthmaticus", 
+    "ICD10_ID": "J4552"
+  }, 
+  {
+    "Disease": "Other and unspecified asthma", 
+    "ICD10_ID": "J459"
+  }, 
+  {
+    "Disease": "Unspecified asthma", 
+    "ICD10_ID": "J4590"
+  }, 
+  {
+    "Disease": "Unspecified asthma with (acute) exacerbation", 
+    "ICD10_ID": "J45901"
+  }, 
+  {
+    "Disease": "Unspecified asthma with status asthmaticus", 
+    "ICD10_ID": "J45902"
+  }, 
+  {
+    "Disease": "Unspecified asthma, uncomplicated", 
+    "ICD10_ID": "J45909"
+  }, 
+  {
+    "Disease": "Other asthma", 
+    "ICD10_ID": "J4599"
+  }, 
+  {
+    "Disease": "Exercise induced bronchospasm", 
+    "ICD10_ID": "J45990"
+  }, 
+  {
+    "Disease": "Cough variant asthma", 
+    "ICD10_ID": "J45991"
+  }, 
+  {
+    "Disease": "Other asthma", 
+    "ICD10_ID": "J45998"
+  }, 
+  {
+    "Disease": "Bronchiectasis", 
+    "ICD10_ID": "J47"
+  }, 
+  {
+    "Disease": "Bronchiectasis with acute lower respiratory infection", 
+    "ICD10_ID": "J470"
+  }, 
+  {
+    "Disease": "Bronchiectasis with (acute) exacerbation", 
+    "ICD10_ID": "J471"
+  }, 
+  {
+    "Disease": "Bronchiectasis, uncomplicated", 
+    "ICD10_ID": "J479"
+  }, 
+  {
+    "Disease": "Coalworker's pneumoconiosis", 
+    "ICD10_ID": "J60"
+  },
+  {
+    "Disease": "Diabetes in pregnancy, childbirth, and the puerperium", 
+    "ICD10_ID": "O24"
+  }, 
+  {
+    "Disease": "Pre-exist diabetes, type 1, in preg, chldbrth and the puerp", 
+    "ICD10_ID": "O240"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes mellitus, type 1, in pregnancy", 
+    "ICD10_ID": "O2401"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes, type 1, in pregnancy, first trimester", 
+    "ICD10_ID": "O24011"
+  }, 
+  {
+    "Disease": "Pre-exist diabetes, type 1, in pregnancy, second trimester", 
+    "ICD10_ID": "O24012"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes, type 1, in pregnancy, third trimester", 
+    "ICD10_ID": "O24013"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes, type 1, in pregnancy, unsp trimester", 
+    "ICD10_ID": "O24019"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes mellitus, type 1, in childbirth", 
+    "ICD10_ID": "O2402"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes mellitus, type 1, in the puerperium", 
+    "ICD10_ID": "O2403"
+  }, 
+  {
+    "Disease": "Pre-exist diabetes, type 2, in preg, chldbrth and the puerp", 
+    "ICD10_ID": "O241"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes mellitus, type 2, in pregnancy", 
+    "ICD10_ID": "O2411"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes, type 2, in pregnancy, first trimester", 
+    "ICD10_ID": "O24111"
+  }, 
+  {
+    "Disease": "Pre-exist diabetes, type 2, in pregnancy, second trimester", 
+    "ICD10_ID": "O24112"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes, type 2, in pregnancy, third trimester", 
+    "ICD10_ID": "O24113"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes, type 2, in pregnancy, unsp trimester", 
+    "ICD10_ID": "O24119"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes mellitus, type 2, in childbirth", 
+    "ICD10_ID": "O2412"
+  }, 
+  {
+    "Disease": "Pre-existing diabetes mellitus, type 2, in the puerperium", 
+    "ICD10_ID": "O2413"
+  }, 
+  {
+    "Disease": "Unsp pre-exist diabetes in pregnancy, chldbrth and the puerp", 
+    "ICD10_ID": "O243"
+  }, 
+  {
+    "Disease": "Unspecified pre-existing diabetes mellitus in pregnancy", 
+    "ICD10_ID": "O2431"
+  }, 
+  {
+    "Disease": "Unsp pre-existing diabetes in pregnancy, first trimester", 
+    "ICD10_ID": "O24311"
+  }, 
+  {
+    "Disease": "Unsp pre-existing diabetes in pregnancy, second trimester", 
+    "ICD10_ID": "O24312"
+  }, 
+  {
+    "Disease": "Unsp pre-existing diabetes in pregnancy, third trimester", 
+    "ICD10_ID": "O24313"
+  }, 
+  {
+    "Disease": "Unsp pre-existing diabetes in pregnancy, unsp trimester", 
+    "ICD10_ID": "O24319"
+  }, 
+  {
+    "Disease": "Unspecified pre-existing diabetes mellitus in childbirth", 
+    "ICD10_ID": "O2432"
+  }, 
+  {
+    "Disease": "Unspecified pre-existing diabetes mellitus in the puerperium", 
+    "ICD10_ID": "O2433"
+  }, 
+  {
+    "Disease": "Gestational diabetes mellitus", 
+    "ICD10_ID": "O244"
+  }, 
+  {
+    "Disease": "Gestational diabetes mellitus in pregnancy", 
+    "ICD10_ID": "O2441"
+  }, 
+  {
+    "Disease": "Gestational diabetes mellitus in pregnancy, diet controlled", 
+    "ICD10_ID": "O24410"
+  }, 
+  {
+    "Disease": "Gestational diabetes in pregnancy, insulin controlled", 
+    "ICD10_ID": "O24414"
+  }, 
+  {
+    "Disease": "Gestational diabetes mellitus in pregnancy, unsp control", 
+    "ICD10_ID": "O24419"
+  }, 
+  {
+    "Disease": "Gestational diabetes mellitus in childbirth", 
+    "ICD10_ID": "O2442"
+  }, 
+  {
+    "Disease": "Gestational diabetes mellitus in childbirth, diet controlled", 
+    "ICD10_ID": "O24420"
+  }, 
+  {
+    "Disease": "Gestational diabetes in childbirth, insulin controlled", 
+    "ICD10_ID": "O24424"
+  }, 
+  {
+    "Disease": "Gestational diabetes mellitus in childbirth, unsp control", 
+    "ICD10_ID": "O24429"
+  }, 
+  {
+    "Disease": "Gestational diabetes mellitus in the puerperium", 
+    "ICD10_ID": "O2443"
+  }, 
+  {
+    "Disease": "Gestational diabetes in the puerperium, diet controlled", 
+    "ICD10_ID": "O24430"
+  }, 
+  {
+    "Disease": "Gestational diabetes in the puerperium, insulin controlled", 
+    "ICD10_ID": "O24434"
+  }, 
+  {
+    "Disease": "Gestational diabetes in the puerperium, unsp control", 
+    "ICD10_ID": "O24439"
+  }, 
+  {
+    "Disease": "Oth pre-exist diabetes in pregnancy, chldbrth, and the puerp", 
+    "ICD10_ID": "O248"
+  }, 
+  {
+    "Disease": "Other pre-existing diabetes mellitus in pregnancy", 
+    "ICD10_ID": "O2481"
+  }, 
+  {
+    "Disease": "Oth pre-existing diabetes in pregnancy, first trimester", 
+    "ICD10_ID": "O24811"
+  }, 
+  {
+    "Disease": "Oth pre-existing diabetes in pregnancy, second trimester", 
+    "ICD10_ID": "O24812"
+  }, 
+  {
+    "Disease": "Oth pre-existing diabetes in pregnancy, third trimester", 
+    "ICD10_ID": "O24813"
+  }, 
+  {
+    "Disease": "Oth pre-existing diabetes in pregnancy, unsp trimester", 
+    "ICD10_ID": "O24819"
+  }, 
+  {
+    "Disease": "Other pre-existing diabetes mellitus in childbirth", 
+    "ICD10_ID": "O2482"
+  }, 
+  {
+    "Disease": "Other pre-existing diabetes mellitus in the puerperium", 
+    "ICD10_ID": "O2483"
+  }, 
+  {
+    "Disease": "Unsp diabetes in pregnancy, childbirth and the puerperium", 
+    "ICD10_ID": "O249"
+  }, 
+  {
+    "Disease": "Unspecified diabetes mellitus in pregnancy", 
+    "ICD10_ID": "O2491"
+  }, 
+  {
+    "Disease": "Unspecified diabetes mellitus in pregnancy, first trimester", 
+    "ICD10_ID": "O24911"
+  }, 
+  {
+    "Disease": "Unspecified diabetes mellitus in pregnancy, second trimester", 
+    "ICD10_ID": "O24912"
+  }, 
+  {
+    "Disease": "Unspecified diabetes mellitus in pregnancy, third trimester", 
+    "ICD10_ID": "O24913"
+  }, 
+  {
+    "Disease": "Unsp diabetes mellitus in pregnancy, unspecified trimester", 
+    "ICD10_ID": "O24919"
+  }, 
+  {
+    "Disease": "Unspecified diabetes mellitus in childbirth", 
+    "ICD10_ID": "O2492"
+  }, 
+  {
+    "Disease": "Unspecified diabetes mellitus in the puerperium", 
+    "ICD10_ID": "O2493"
+  }
+]

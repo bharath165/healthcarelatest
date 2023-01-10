@@ -1,0 +1,810 @@
+<div class="ideathon-banner-wrapper">
+  <div class="ideathon-banner clearfix">
+    <div class="ideathon-banner-image">
+      <img src="assets/images/ideathon-banner.png" alt="" />
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-body pb-0">
+    <div class="crt-slctn-container">
+      <div class="row">
+        <label class="criteria-label">Criteria Selection Menu</label>
+      </div>
+      <div class="row">
+        <div class="tag-container">
+          <div
+            class="tag-box"
+            cdkDropList
+            #todoList="cdkDropList"
+            [cdkDropListData]="criterias"
+            [cdkDropListConnectedTo]="[doneList, doneList1]"
+          >
+            <div
+              class="example-box tag-label"
+              *ngFor="let criteria of criterias"
+              cdkDrag
+            >
+              {{ criteria.name }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col1" style="width: 590px">
+        <label class="criteria-label">Inclusion Criteria demo</label>
+      </div>
+      <div class="col2" style="width: 590px">
+        <label class="criteria-label">Exclusion Criteria</label>
+      </div>
+    </div>
+    <div class="row">
+      <div
+        class="ctr-container-2"
+        style="background-color: rgba(1, 178, 124, 0.05);"
+        cdkDropList
+        #doneList="cdkDropList"
+        [cdkDropListData]="inclusionCriteria"
+        [cdkDropListConnectedTo]="[todoList]"
+        (cdkDropListDropped)="dropInclusion($event)"
+      >
+        <div class="align_Cont">
+          <div
+            class="example-box crt-tag"
+            style=" background: rgba(1, 178, 124, 0.05);
+            border: 1px solid #01B27C;
+            color: #01B27C"
+            *ngFor="let item of inclusionCriteria; let i = index"
+            cdkDrag
+          >
+            {{ item.name }}
+            <button class="dlt-tag" style="color: #01b27c">
+              <img
+                class="close-btn"
+                src="../../assets/images/close-line.png"
+                (click)="deleteIncTag(i)"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="pos_center" *ngIf="isShowTag === false">
+          <div class="dragndrop-txt1">
+            Drag and Drop Criteria Or
+            <button
+              class="add-crt-btn1"
+              style="background:#01B27C;
+            border: none"
+            >
+              + Add Criteria
+            </button>
+          </div>
+        </div>
+
+        <button
+          class="add-crt-btn"
+          style="background-color: #01B27C"
+          *ngIf="isShowTag === true"
+        >
+          + Add Criteria
+        </button>
+      </div>
+      <!-- </div> -->
+
+      <!-- </fieldset> -->
+
+      <div
+        class="ctr-container-2"
+        style="background-color: rgba(252, 106, 89, 0.1);"
+        cdkDropList
+        #doneList1="cdkDropList"
+        [cdkDropListData]="selectedExlCriterias"
+        [cdkDropListConnectedTo]="[todoList]"
+        (cdkDropListDropped)="dropExclusion($event)"
+      >
+        <div class="align_Cont">
+          <div
+            class="example-box crt-tag"
+            style=" background: rgba(252, 106, 89, 0.1);
+            border: 1px solid #FC6A59;
+            color:#FC6A59"
+            *ngFor="let item of exclusionCriteria; let i = index"
+            cdkDrag
+          >
+            {{ item.name }}
+            <button class="dlt-tag" style="color:rgba(255, 127, 80);">
+              <img
+                class="close-btn"
+                src="../../assets/images/close-line-ex.png"
+                (click)="deleteExcTag(i)"
+              />
+            </button>
+          </div>
+        </div>
+        <div class="pos_center" *ngIf="isShowTag1 === false">
+          <div class="dragndrop-txt1" *ngIf="isShowTag1 === false">
+            Drag and Drop Criteria Or
+            <button
+              class="add-crt-btn1"
+              style="background: rgba(252, 106, 89, 1);
+              border: none"
+              *ngIf="isShowTag1 === false"
+            >
+              + Add Criteria
+            </button>
+          </div>
+        </div>
+
+        <button
+          class="add-crt-btn"
+          style="background-color: rgb(255, 127, 80, 1)"
+          *ngIf="isShowTag1 === true"
+        >
+          + Add Criteria
+        </button>
+      </div>
+    </div>
+    <!-- <div class="row" *ngIf="isShowTag === false">
+      <div
+        class="ctr-container-1"
+        style="background-color: rgb(1, 178, 124, 0.1); border: 2px dashed #01B27C"
+      >
+        <div class="dragndrop-txt">
+          Drag and Drop Criteria
+        </div>
+      </div>
+
+      <div
+        class="ctr-container-1"
+        style="background: rgba(252, 106, 89, 0.1); border: 2px dashed #FC6A59;"
+      >
+        <div class="dragndrop-txt">
+          Drag and Drop Criteria Or
+        </div>
+        <button class="add-crt-btn" style="background: rgba(252, 106, 89, 1);">
+          + Add Criteria
+        </button>
+      </div>
+    </div> -->
+    <div class="btnarrange">
+      <button class="remove-btn" (click)="deleteAllTag()">
+        Remove all Tags</button
+      ><button class="grt-crt-btn" (click)="addValue()">
+        Generate Criteria
+      </button>
+    </div>
+    <div class="row">
+      <div class="col1" style="width: 590px" *ngIf="showIncAddValue === true">
+        <label class="criteria-label">Add Values to Inclusion Criteria</label>
+      </div>
+      <div class="col2" style="width: 590px" *ngIf="showExcAddValue === true">
+        <label class="criteria-label">Add values to Exclusion Criteria</label>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="IncSelected" *ngIf="showIncAddValue === true">
+        <div
+          class="value-container"
+          *ngFor="let item of selectedIncCriterias; index as i"
+        >
+          <div *ngIf="item.id === 1">
+            <div
+              style="
+                    background: rgb(245, 249, 252, 0.1);
+                    width: 590px;
+                    height: 141px;
+                  "
+            >
+              <div class="add-value-container">
+                <div class="crt-name" style="color: #01b27c">Disease Name</div>
+                <select
+                  class="sort-disease"
+                  [(ngModel)] ="selectedDiseaseStateFilter"
+                  (change)="onChangeIncDiseaseState($event, i)"
+                >
+                  <option [ngValue]="undefined" disabled
+                    >Filter By: Recommended
+                  </option>
+                  <option>Equals</option>
+                  <option>Does not Equals</option>
+                  <option>Begins With</option>
+                  <option>Does Not Begins With</option>
+                  <option>Ends with</option>
+                  <option>Does not end with</option>
+                  <option>Contains</option>
+                  <option>Does not contain</option>
+                  <option>From List</option>
+                </select>
+              </div>
+              <div class="disease-cohort">
+                <div class="disease-ctr-search">
+                  <input
+                    *ngIf="isFromListInc[i] === false || isFromListInc.length === 0"
+                    class="input_hide"
+                    id="inc{{ i }}"
+                    type="text"
+                    placeholder="Type Disease Name..."
+                  />
+                  <ng-autocomplete
+                    *ngIf="isFromListInc[i] === true"
+                    #diseaseStateAutoComplete
+                    [data]="diseaseStates"
+                    [searchKeyword]="keyword"
+                    (inputChanged)="getAllDiseaseState()"
+                    [minQueryLength]="3"
+                    minlength="3"
+                    [minlength]="3"
+                    placeholder="Type Disease Name..."
+                    [itemTemplate]="itemTemplate"
+                    [notFoundTemplate]="notFoundTemplate"
+                    class="autocomplete"
+                  >
+                  </ng-autocomplete>
+
+                  <ng-template #itemTemplate let-item>
+                    <a [innerHTML]="item.Disease"></a>
+                  </ng-template>
+
+                  <ng-template #notFoundTemplate let-notFound>
+                    <div [innerHTML]="notFound"></div>
+                  </ng-template>
+                </div>
+                <button
+                  class="generate-cohort-btn"
+                  *ngIf="i === add"
+                  (click)="addCohort(i)"
+                >
+                  <img
+                    src="assets/images/add-line.png"
+                    style="width:30px;height: 30px;margin-right: 5px;"
+                    alt=""
+                  />
+                  Add Attribute
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div *ngIf="item.id === 9">
+            <div
+              style="
+                  background: rgb(245, 249, 252, 0.1);
+                  width: 590px;
+                  height: 141px;
+                "
+            >
+              <div class="add-value-container">
+                <div class="crt-name" style="color: #01b27c">
+                  Age of Patient
+                </div>
+              </div>
+              <div style="display: flex">
+                <select class="sort-patient" (change)="onChange($event, i)">
+                  <option>Less Than</option>
+                  <option>Less or Equal To</option>
+                  <option>Equal To</option>
+                  <option>Greater Than</option>
+                  <option>Greater or Equal To</option>
+                  <option>Between</option>
+                  <option>Not Between</option>
+                </select>
+                <div class="type-age-1">
+                  <input class="input_hide" type="number" />
+                </div>
+                <label class="and-label" *ngIf="isShowAgeInputs[i] === true"
+                  >And</label
+                >
+                <div class="type-age-2" *ngIf="isShowAgeInputs[i] === true">
+                  <input class="input_hide" type="number" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div *ngIf="item.id === 10">
+            <div
+              style="
+                  background: rgb(245, 249, 252, 0.1);
+                  width: 590px;
+                  height: 141px;
+                "
+            >
+              <div class="add-value-container">
+                <div class="crt-name" style="color: #01b27c">Gender</div>
+              </div>
+              <div>
+                <ul class="checkbox-items clearfix">
+                  <li
+                    class="checkbox-item"
+                    *ngFor="let item of genders; index as ind"
+                  >
+                    <!-- <input type="checkbox" [(ngModel)]="item.isChecked" /><label
+                        >{{ item.label }}</label
+                      > -->
+
+                    <input
+                      id="Incx{{ i }}"
+                      type="checkbox"
+                      (change)="incChecked()"
+                    />
+                    <label>{{ item.label }}</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ExcSelected" *ngIf="showExcAddValue === true">
+        <!-- <div *ngFor="let item of selectedExlCriterias">{{ item.name }}</div> -->
+        <div *ngFor="let item of selectedExlCriterias; index as i">
+          <div *ngIf="item.id === 1">
+            <div
+              style="
+                  background: rgb(245, 249, 252, 0.1);
+                  width: 590px;
+                  height: 141px;
+                "
+            >
+              <div class="add-value-container">
+                <div class="crt-name" style="color: rgb(255, 127, 80, 1)">
+                  Disease Name
+                </div>
+                <select
+                  class="sort-disease"
+                  [(ngModel)] ="selectedDiseaseStateFilter"
+                  (change)="onChangeExcDiseaseState($event, i)"
+                >
+                  <option>Equals</option>
+                  <option>Does not Equals</option>
+                  <option>Begins With</option>
+                  <option>Does Not Begins With</option>
+                  <option>Ends with</option>
+                  <option>Does not end with</option>
+                  <option>Contains</option>
+                  <option>Does not contain</option>
+                  <option>From List</option>
+                </select>
+              </div>
+              <div class="disease-cohort">
+                <div class="disease-ctr-search">
+                  <input
+                    class="input_hide"
+                    id="exc{{ i }}2"
+                    type="text"
+                    placeholder="Type Disease Name..."
+                    *ngIf="isFromListExc[i] === false"
+                  />
+                  <ng-autocomplete
+                    #diseaseStateAutoComplete
+                    *ngIf="isFromListExc[i] === true"
+                    [data]="diseaseStates"
+                    [searchKeyword]="keyword"
+                    placeholder="Type Disease Name..."
+                    [itemTemplate]="itemTemplate"
+                    [notFoundTemplate]="notFoundTemplate"
+                    class="autocomplete"
+                  >
+                  </ng-autocomplete>
+
+                  <ng-template #itemTemplate let-item>
+                    <a [innerHTML]="item.Disease"></a>
+                  </ng-template>
+
+                  <ng-template #notFoundTemplate let-notFound>
+                    <div [innerHTML]="notFound"></div>
+                  </ng-template>
+                </div>
+                <!-- <button
+                    class="generate-cohort-btn"
+                    (click)="diseaseStateGenerate('exc', i)"
+                  >
+                    Generate Cohort
+                  </button> -->
+                <button
+                  class="generate-cohort-btn"
+                  *ngIf="i === add"
+                  (click)="addExcCohort(i)"
+                >
+                  <img
+                    src="assets/images/add-line.png"
+                    style="width:30px;height: 30px;margin-right: 5px;"
+                    alt=""
+                  />
+                  Add Attribute
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div *ngIf="item.id === 9">
+            <div
+              style="
+                  background: rgb(245, 249, 252, 0.1);
+                  width: 590px;
+                  height: 141px;
+                "
+            >
+              <div class="add-value-container">
+                <div class="crt-name" style="color: #FC6A59">
+                  Age of Patient
+                </div>
+              </div>
+              <div style="display: flex">
+                <select class="sort-patient" (change)="onChangeEx($event, i)">
+                  <option>Less Than</option>
+                  <option>Less or Equal To</option>
+                  <option>Equal To</option>
+                  <option>Greater Than</option>
+                  <option>Greater or Equal To</option>
+                  <option>Between</option>
+                  <option>Not Between</option>
+                </select>
+                <div class="type-age-1">
+                  <input class="input_hide" type="number" />
+                </div>
+                <label class="and-label" *ngIf="isShowExAgeInputs[i] === true"
+                  >And</label
+                >
+                <div class="type-age-2" *ngIf="isShowExAgeInputs[i] === true">
+                  <input class="input_hide" type="number" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div *ngIf="item.id === 10">
+            <div
+              style="
+                  background: rgb(245, 249, 252, 0.1);
+                  width: 590px;
+                  height: 141px;
+                "
+            >
+              <div class="add-value-container">
+                <div class="crt-name" style="color: #FC6A59">Gender</div>
+              </div>
+              <div>
+                <ul class="checkbox-items clearfix">
+                  <li
+                    class="checkbox-item"
+                    *ngFor="let item of genders; index as ind"
+                  >
+                    <input
+                      id="Exc{{ i }}"
+                      type="checkbox"
+                      (change)="excChecked()"
+                    />
+                    <label>{{ item.label }}</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Gender Add Value END-->
+    <div class="row-btn" *ngIf="showIncAddValue === true">
+      <button class="remove-btn" (click)="generateCohort()">
+        Generate Cohort
+      </button>
+      <button class="grt-crt-btn" (click)="deleteAllTag()">Reset All</button
+      ><button class="remove-btn" (click)="saveAsCohort()">
+        Save As Cohort
+      </button>
+    </div>
+  </div>
+  <div class="card" *ngIf="showDiseaseState">
+    <div class="card-body pb-0" *ngIf="DiseaseGrid">
+      <!-- <div class="row">
+              <div class="col-sm-3">
+              </div>
+              <div class="col-sm-2">
+                <div class="input-group ps-5">
+                  <div id="navbar-search-autocomplete" class="form-outline">
+                    <input type="search" id="form1" class="form-control"  placeholder="Type of Diseases" />
+                    <label class="form-label" for="form1"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <button type="button"  class="btn btn-labeled btn-info mr-1">
+                  <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span>Get Diseases/ICD10</button>
+                <button type="button"  class="btn btn-labeled btn-info mr-1">
+                  <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span>Search Relevant
+                  Concepts</button>
+                  <button type="button"  class="btn btn-labeled btn-info mr-1">
+                    <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span> 
+                    Drug Codes</button>
+                <button type="button"  class="btn btn-labeled btn-info mr-1">
+                  <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span>Find Substance
+                  /Clinical Drugs</button>
+                
+              </div>
+            </div> -->
+      <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+          <sa-spinner-dotted
+            [enabled]="!gridData1 && AgLoad"
+            [color]="'#1e90ff'"
+            >Finding Diseases/ICD10...</sa-spinner-dotted
+          >
+        </div>
+        <div class="col-sm-12" *ngIf="gridData1">
+          <!-- <div class="col-sm-12" > -->
+          <h5>Diseases/ICD10 - {{this.diseaseName | titlecase}}</h5>
+          <div class="card">
+            <div class="card-body">
+              <div class="ag-theme-balham" style="height:350px;">
+                <app-ag-grid
+                  [ColumnDefs]="grid1ColumnDefs"
+                  [RowData]="gridData1"
+                  [IsColumnsToFit]="true"
+                >
+                </app-ag-grid>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+          <sa-spinner-dotted
+            [enabled]="!gridData2 && AgLoad"
+            [color]="'#1e90ff'"
+          >
+            Getting Relevant Concepts...</sa-spinner-dotted
+          >
+        </div>
+
+        <div class="col-sm-12" *ngIf="gridData2">
+          <h5>Relevant Concepts - {{this.diseaseName | titlecase}}</h5>
+          <div class="card">
+            <div class="card-body">
+              <div class="ag-theme-balham" style="height:350px;">
+                <app-ag-grid
+                  [ColumnDefs]="grid2ColumnDefs"
+                  [RowData]="gridData2"
+                  [IsColumnsToFit]="true"
+                >
+                </app-ag-grid>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+          <sa-spinner-dotted
+            [enabled]="!gridData4 && AgLoad"
+            [color]="'#1e90ff'"
+            >Find Drug Codes ...</sa-spinner-dotted
+          >
+        </div>
+
+        <div class="col-sm-12" *ngIf="gridData4">
+          <h5>Find Drug Codes - {{this.diseaseName | titlecase}}</h5>
+          <div class="card">
+            <div class="card-body">
+              <div class="ag-theme-balham" style="height:350px;">
+                <app-ag-grid
+                  [ColumnDefs]="grid4ColumnDefs"
+                  [RowData]="gridData4"
+                  [IsColumnsToFit]="true"
+                >
+                </app-ag-grid>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+          <sa-spinner-dotted
+            [enabled]="!gridData3 && AgLoad"
+            [color]="'#1e90ff'"
+            >Searching Clinical Drugs ...</sa-spinner-dotted
+          >
+        </div>
+
+        <div class="col-sm-12" *ngIf="gridData3">
+          <h5>Pharmacological Substance/Clinical Drugs - {{this.diseaseName | titlecase}}</h5>
+          <div class="card">
+            <div class="card-body">
+              <div class="ag-theme-balham" style="height:350px;">
+                <app-ag-grid
+                  [ColumnDefs]="grid3ColumnDefs"
+                  [RowData]="gridData3"
+                  [IsColumnsToFit]="true"
+                >
+                </app-ag-grid>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="asthmaGrid">
+        <div style="text-align: center;">
+          <img
+            src="assets/images/astma.png"
+            style="width:1400px;height: 600px;"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="card-body pb-0" *ngIf="diabeticsGrid">
+      <!-- <div class="row">
+              <div class="col-sm-3">
+              </div>
+              <div class="col-sm-2">
+                <div class="input-group ps-5">
+                  <div id="navbar-search-autocomplete" class="form-outline">
+                    <input type="search" id="form1" class="form-control"  placeholder="Type of Diseases" />
+                    <label class="form-label" for="form1"></label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <button type="button"  class="btn btn-labeled btn-info mr-1">
+                  <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span>Get Diseases/ICD10</button>
+                <button type="button"  class="btn btn-labeled btn-info mr-1">
+                  <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span>Search Relevant
+                  Concepts</button>
+                  <button type="button"  class="btn btn-labeled btn-info mr-1">
+                    <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span> 
+                    Drug Codes</button>
+                <button type="button"  class="btn btn-labeled btn-info mr-1">
+                  <span class="btn-label"><i class="glyphicon glyphicon-refresh"></i></span>Find Substance
+                  /Clinical Drugs</button>
+                
+              </div>
+            </div> -->
+      <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+          <sa-spinner-dotted
+            [enabled]="!gridDataD1 && AgLoad"
+            [color]="'#1e90ff'"
+            >Finding Diseases/ICD10...</sa-spinner-dotted
+          >
+        </div>
+        <div class="col-sm-12" *ngIf="gridDataD1">
+          <!-- <div class="col-sm-12" > -->
+          <h5>Diseases/ICD10 - Diabetes</h5>
+          <div class="card">
+            <div class="card-body">
+              <div class="ag-theme-balham" style="height:350px;">
+                <app-ag-grid
+                  [ColumnDefs]="grid1ColumnDefs"
+                  [RowData]="gridDataD1"
+                  [IsColumnsToFit]="true"
+                >
+                </app-ag-grid>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+          <sa-spinner-dotted
+            [enabled]="!gridDataD2 && AgLoad"
+            [color]="'#1e90ff'"
+          >
+            Getting Relevant Concepts...</sa-spinner-dotted
+          >
+        </div>
+
+        <div class="col-sm-12" *ngIf="gridDataD2">
+          <h5>Relevant Concepts - Diabetes</h5>
+          <div class="card">
+            <div class="card-body">
+              <div class="ag-theme-balham" style="height:350px;">
+                <app-ag-grid
+                  [ColumnDefs]="grid2ColumnDefs"
+                  [RowData]="gridDataD2"
+                  [IsColumnsToFit]="true"
+                >
+                </app-ag-grid>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+          <sa-spinner-dotted
+            [enabled]="!gridDataD4 && AgLoad"
+            [color]="'#1e90ff'"
+            >Find Drug Codes ...</sa-spinner-dotted
+          >
+        </div>
+
+        <div class="col-sm-12" *ngIf="gridDataD4">
+          <h5>Find Drug Codes - Diabetes</h5>
+          <div class="card">
+            <div class="card-body">
+              <div class="ag-theme-balham" style="height:350px;">
+                <app-ag-grid
+                  [ColumnDefs]="grid4ColumnDefs"
+                  [RowData]="gridDataD4"
+                  [IsColumnsToFit]="true"
+                >
+                </app-ag-grid>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12" style="text-align: center;">
+          <sa-spinner-dotted
+            [enabled]="!gridDataD3 && AgLoad"
+            [color]="'#1e90ff'"
+            >Searching Clinical Drugs ...</sa-spinner-dotted
+          >
+        </div>
+
+        <div class="col-sm-12" *ngIf="gridDataD3">
+          <h5>Pharmacological Substance/Clinical Drugs - Diabetes</h5>
+          <div class="card">
+            <div class="card-body">
+              <div class="ag-theme-balham" style="height:350px;">
+                <app-ag-grid
+                  [ColumnDefs]="grid3ColumnDefs"
+                  [RowData]="gridDataD3"
+                  [IsColumnsToFit]="true"
+                >
+                </app-ag-grid>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="diabeticsGrid">
+        <div style="text-align: center;">
+          <img
+            src="assets/images/diabetic.png"
+            style="width:1400px;height: 600px;"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert-box" *ngIf="isSaveCohort">
+    <div class="flex-class">
+      <div>
+        Save Cohort As
+      </div>
+      <div>
+        x
+      </div>
+    </div>
+    <div class="alert-content">
+      <div class="alert-icon"></div>
+      <div class="alert-title">Cohort Name</div>
+      <div class="alert-desc">
+        <input class="input_hide" type="text" value="" />
+      </div>
+      <div class="alert-title">Add Cohort Discription</div>
+      <div class="alert-desc">
+        <textarea id="input_hide" rows="3" cols="33"> </textarea>
+      </div>
+      <div class="alert-buttons">
+        <button class="blur">Cancel</button>
+        <button>Save Cohort</button>
+      </div>
+    </div>
+  </div>
+</div>
