@@ -2,32 +2,32 @@ const express = require('express');
 const querystring = require('querystring');
 
 const url = require('url');
-// const {PythonShell} =require('python-shell');
+const {PythonShell} =require('python-shell');
 
 
-// PythonShell.run('/Healthcare-Cohort-Builder-main/Healthcare-Cohort-Builder-main/', options, function (err, result){
-//   if (err) throw err;
-//   // result is an array consisting of messages collected
-//   //during execution of script.
-//   console.log('result: ', result.toString());
-//   res.send(result.toString())
+PythonShell.run('/home/193185@ustr.com/healthcare-cohort/Healthcare-Cohort-Builder/API/main.py', null, function (err, result){
+  if (err) throw err;
+  // result is an array consisting of messages collected
+  //during execution of script.
+  console.log('result: ', result.toString());
+  res.send(result.toString())
+});
+
+// const {spawn} = require('child_process');
+ 
+// const childPython =spawn('python',['c:\\Users\\198809\\Downloads\\Healthcare-Cohort-Builder-main\\Healthcare-Cohort-Builder-main\\healthapiv2\\HealthAPIv2.py']);
+
+// childPython.stdout.on('data',(data)=>{
+//   console.log(`stdout: ${data}`);
 // });
 
-const {spawn} = require('child_process');
- 
-const childPython =spawn('python',['c:\\Users\\198809\\Downloads\\Healthcare-Cohort-Builder-main\\Healthcare-Cohort-Builder-main\\healthapiv2\\HealthAPIv2.py']);
+// childPython.stderr.on('data',(data)=>{
+//   console.log(`stderr: ${data}`);
+// });
 
-childPython.stdout.on('data',(data)=>{
-  console.log(`stdout: ${data}`);
-});
-
-childPython.stderr.on('data',(data)=>{
-  console.log(`stderr: ${data}`);
-});
-
-childPython.on('close',(code)=>{
-  console.log(`child process exited with code ${code}`);
-});
+// childPython.on('close',(code)=>{
+//   console.log(`child process exited with code ${code}`);
+// });
 // const grid1 = require("./mockData/grid1.json");
 // const grid2 = require("./mockData/grid2.json");
 // const grid3 = require("./mockData/grid2.json");
