@@ -1994,7 +1994,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, AppService);
 
         this.http = http;
-        this.rootURL = '/HealthAPIv2';
+        this.rootURL = 'http://10.31.114.21:5000';
         this.liveBaseUrl = 'http://20.228.170.193:8080';
       }
 
@@ -2006,15 +2006,16 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }, {
         key: "getGridData",
         value: function getGridData(gridCount, searchText) {
-          // return this.http.get(this.rootURL + `/drugInfo/${gridCount}?searchText=${searchText}`);
+          console.log(this.rootURL + "/icd10/".concat(searchText)); // return this.http.get(this.rootURL + `/drugInfo/${gridCount}?searchText=${searchText}`);
+
           if (gridCount == 1) {
-            return this.http.get("http://127.0.0.1:5000/icd10/" + "".concat(searchText));
+            return this.http.get(this.rootURL + "/icd10/".concat(searchText));
           } else if (gridCount == 2) {
-            return this.http.get("http://127.0.0.1:5000/conceptIDs/" + "".concat(searchText));
+            return this.http.get(this.rootURL + "/conceptIDs/".concat(searchText));
           } else if (gridCount == 3) {
-            return this.http.get("http://127.0.0.1:5000/icd10/" + "".concat(searchText));
+            return this.http.get(this.rootURL + "/icd10/".concat(searchText));
           } else if (gridCount == 4) {
-            return this.http.get("http://127.0.0.1:5000/NDCs/" + "".concat(searchText));
+            return this.http.get(this.rootURL + "/NDCs/".concat(searchText));
           }
         }
       }, {

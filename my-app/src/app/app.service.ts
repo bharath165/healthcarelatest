@@ -12,7 +12,7 @@ export class AppService {
 
 
 
-  rootURL = '/HealthAPIv2';
+  rootURL = 'http://10.31.114.21:5000';
   liveBaseUrl = 'http://20.228.170.193:8080'
 
   getUsers() {
@@ -20,19 +20,19 @@ export class AppService {
   }
 
   getGridData(gridCount: number, searchText: string) {
-
+console.log(this.rootURL + `/icd10/${searchText}`);
     // return this.http.get(this.rootURL + `/drugInfo/${gridCount}?searchText=${searchText}`);
     if (gridCount == 1) {
-      return this.http.get("http://127.0.0.1:5000/icd10/" + `${searchText}`);
+      return this.http.get(this.rootURL + `/icd10/${searchText}`);
     }
      else if (gridCount == 2) {
-      return this.http.get("http://127.0.0.1:5000/conceptIDs/" + `${searchText}`);
+      return this.http.get(this.rootURL + `/conceptIDs/${searchText}`);
     }
      else if (gridCount == 3) {
-      return this.http.get("http://127.0.0.1:5000/icd10/" + `${searchText}`);
+      return this.http.get(this.rootURL + `/icd10/${searchText}`);
     }
      else if (gridCount == 4) {
-      return this.http.get("http://127.0.0.1:5000/NDCs/" + `${searchText}`);
+      return this.http.get(this.rootURL + `/NDCs/${searchText}`);
     }
   }
   getGridDataLive(gridName: string) {
